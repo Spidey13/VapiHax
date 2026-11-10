@@ -1,3 +1,4 @@
+import { liveFor } from './sources/exa.js';
 import type { CaseState, Check, SourceRef } from './case/types.js';
 import { selectNext } from './engine/select.js';
 import { selectionReply } from './engine/respond.js';
@@ -43,6 +44,7 @@ export interface Packet {
   attempts: { id: string; checkId: string; outcome: string; applicable: boolean; note?: string }[];
   nextAction: { kind: string; text: string; checkId?: string };
   sources: (SourceRef & { usedBy: string[] })[];
+  liveSources: { checkId: string; url: string; title: string; publishedDate: string | null; fetchedAt: string }[];
   notices: string[];
   revision: number;
 }
@@ -79,6 +81,7 @@ export function buildPacket(state: CaseState): Packet {
     })),
     nextAction: { kind: sel.kind, text, checkId },
     sources: [...sourceMap.values()],
+    liveSources: addChecks.flatMap((c) => (liveFor(c.id)?.results ?? []).map((r) => ({ checkId: c.id, url: r.url, title: r.title, publishedDate: r.publishedDate, fetchedAt: r.fetchedAt }))),
     notices: state.notices.map((n) => `${n.kind}: ${n.text}`),
     revision: state.revision,
   };
@@ -110,6 +113,10 @@ export function toMarkdown(state: CaseState): string {
   }
   L.push('## Sources', '');
   for (const s of p.sources) L.push(`- ${s.title} â€” ${s.url} (${s.mode} ${s.capturedAt}; used by ${s.usedBy.join(', ')})`);
+  if (p.liveSources.length) {
+    L.push('', '## Live sources (Exa, supporting only; they did not change any instruction)', '');
+    for (const s of p.liveSources) L.push(`- ${s.title} — ${s.url} (live, fetched ${s.fetchedAt}; published ${s.publishedDate ?? 'unknown'}; supports ${s.checkId})`);
+  }
   L.push('', '---', 'Generated from user-reported answers. Nothing here is verified against a live device or network.', '');
   return L.join('\n');
 }

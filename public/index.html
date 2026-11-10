@@ -10,7 +10,13 @@
   <div class="banner" role="note">EXAMPLE CASE â€” synthetic household</div>
   <main>
     <h1>Setup Relay</h1>
-    <p class="sub">Eve Energy (Matter over Thread) &middot; Home Assistant &middot; one check at a time.</p>
+    <p class="sub">Voice-guided recovery when a Matter-over-Thread device won't pair. One source-backed check at a time; an honest support packet at the end.</p>
+    <div class="stack" aria-label="Built with">
+      <span class="chip"><b>Vapi</b> voice call, custom-LLM, server events</span>
+      <span class="chip"><b>Deepgram</b> Nova-3 + keyterms · Aura-2 voice</span>
+      <span class="chip"><b>Exa</b> live official-source check</span>
+      <span class="chip dim"><b>TypeSafe Jev</b> next: semantic correction classifier</span>
+    </div>
 
     <section id="start">
       <button id="btn-start">Start case</button>
@@ -60,7 +66,7 @@
       </section>
       <p id="outcome" class="outcome"></p>
       <details id="reviewer"><summary>Reviewer: latency trace &amp; live/fixture labels</summary>
-        <p class="sub">Live: Vapi call, Deepgram STT/TTS, custom-LLM replies (when a voice call is active). Fixture: household facts and curated sources.</p>
+        <p class="sub">Live: Vapi call, Deepgram STT/TTS, custom-LLM replies (when a voice call is active), Exa source lookup (started on stable partials). Rule interpreter (Jev not yet integrated). Fixture: household facts; curated rules own every instruction.</p>
         <pre id="trace">no trace yet</pre>
       </details>
     </div>

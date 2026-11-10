@@ -31,7 +31,23 @@ async function sendTurn(text) {
   render(r.state);
 }
 
+function liveBox(L) {
+  if (!L) return el('div', { className: 'live muted', textContent: 'Exa live check: off' });
+  if (L.status === 'pending') return el('div', { className: 'live pending', textContent: 'Exa · checking official sources live…' });
+  if (L.status === 'unavailable') return el('div', { className: 'live muted', textContent: 'Exa live refresh unavailable — curated source shown' });
+  const t = new Date(L.results[0].fetchedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  return el('div', { className: 'live' },
+    el('div', { className: 'live-head', textContent: `LIVE · Exa · fetched ${t} · ${L.ms} ms${L.startedFromPartial ? ' · started from a partial transcript, before you finished speaking' : ''}` }),
+    ...L.results.map((r) => el('div', { className: 'live-item' },
+      el('a', { href: r.url, target: '_blank', rel: 'noopener', textContent: r.title }),
+      el('span', { className: 'sub', textContent: ` · published ${r.publishedDate ? r.publishedDate.slice(0, 10) : 'unknown'}` }),
+      el('blockquote', { textContent: r.highlight }))),
+    el('div', { className: 'sub', textContent: 'Supports the curated step above; it never rewrites the instruction.' }));
+}
+
+let livePoll = 0;
 function render(s) {
+  if (s.liveSources?.status === 'pending' && !livePoll) livePoll = setTimeout(async () => { livePoll = 0; try { const r = await (await api(`/${session.id}`)).json(); render(r); } catch {} }, 800);
   $('notices').replaceChildren(...s.notices.slice(-4).map((n) => el('div', { className: `notice ${n.kind}`, textContent: `${n.kind}: ${n.text}` })));
 
   const c = s.currentCheck;
@@ -54,6 +70,7 @@ function render(s) {
       el('p', {}, el('strong', { textContent: 'Expect: ' }), c.expectedObservation),
       el('p', {}, el('strong', { textContent: 'Stop if: ' }), c.stopConditions),
       el('div', {}, ...links),
+      liveBox(s.liveSources),
       el('div', { className: 'actions' }, ...actions),
     );
   }

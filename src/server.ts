@@ -12,6 +12,7 @@ import { toJson, toMarkdown, BANNER } from './packet.js';
 import { mountVapi } from './vapi/customLlm.js';
 import { mountEvents } from './vapi/events.js';
 import { Prefetcher, type Trace } from './engine/prefetch.js';
+import { liveFor, warm } from './sources/exa.js';
 
 export interface Deps {
   store: CaseStore;
@@ -51,6 +52,13 @@ export function stateView(s: CaseState) {
     revision: s.revision,
     facts: s.facts,
     currentCheck: s.currentCheck?.check ?? null,
+    liveSources: (() => {
+      const c = s.currentCheck?.check;
+      if (!c) return null;
+      warm(c);
+      return liveFor(c.id);
+    })(),
+    sponsors: { exa: !!process.env.EXA_API_KEY },
     attempts: s.attempts,
     notices: s.notices,
     hypothetical: s.hypothetical,

@@ -2,6 +2,7 @@ import type { CaseState } from '../case/types.js';
 import { setFact } from '../case/facts.js';
 import type { Interpreter } from './interpret.js';
 import { selectNext, type Selection } from './select.js';
+import { warm } from '../sources/exa.js';
 
 export interface Trace {
   firstPartialAt?: number;
@@ -42,7 +43,10 @@ export class Prefetcher {
     const clone = structuredClone(state);
     for (const [p, v] of Object.entries(facts)) setFact(clone, p, v, 'user-report', { sourceText: text });
     this.runs += 1;
-    this.cache.set(state.sessionId, { key, sel: selectNext(clone) });
+    const sel = selectNext(clone);
+    this.cache.set(state.sessionId, { key, sel });
+    // Start the live source lookup while the user is still talking (read-only).
+    if (sel.kind === 'check' || sel.kind === 'unsupported') warm(sel.check, true);
     if (trace) trace.prefetchDoneAt = Date.now();
     return true;
   }

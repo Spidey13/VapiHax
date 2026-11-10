@@ -29,3 +29,13 @@ tr.disputed td { background: #ffe0e0; }
 td.unknown { color: #999; font-style: italic; }
 .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
 .outcome { font-weight: 600; }
+
+.stack { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; }
+.chip { font-size: .8rem; background: #111827; color: #e5e7eb; padding: 4px 9px; border-radius: 999px; }
+.chip b { color: #fff; } .chip.dim { background: #d1d5db; color: #374151; } .chip.dim b { color: #111; }
+.live { margin-top: 10px; padding: 10px; border-radius: 8px; background: #ecfdf5; border: 1px solid #6ee7b7; }
+.live.pending { background: #eff6ff; border-color: #93c5fd; animation: pulse 1.2s ease-in-out infinite; }
+.live.muted { background: #f3f4f6; border-color: #ddd; color: #666; }
+.live-head { font-weight: 700; font-size: .85rem; color: #047857; margin-bottom: 6px; }
+.live-item { margin: 6px 0; } .live blockquote { margin: 4px 0 0; padding-left: 8px; border-left: 3px solid #6ee7b7; font-size: .85rem; color: #333; }
+@keyframes pulse { 50% { opacity: .55; } }
