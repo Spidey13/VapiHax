@@ -98,6 +98,21 @@ export async function handleTurn(
     if (r.changed || r.disputed) changedPaths.push(path);
   }
 
+  // Sync status belongs to the phone it was run on: a platform change clears it.
+  if (changedPaths.includes('phone.platform') && state.facts['sync.status']?.value !== null && !changedPaths.includes('sync.status')) {
+    const r = setFact(state, 'sync.status', null, 'user-report', { now });
+    if (r.changed) changedPaths.push('sync.status');
+  }
+
+  // A plain worked/failed report on a credential-sync check is a sync result.
+  if (interp.attempt && prevCheck && /credential-sync$/.test(prevCheck.id) && !interp.facts?.['sync.status']) {
+    const o = interp.attempt.outcome;
+    const mapped = o === 'succeeded' ? 'reported-done' : o === 'failed' ? 'failed' : null;
+    if (mapped && (!interp.attempt.checkId || interp.attempt.checkId === prevCheck.id)) {
+      if (setFact(state, 'sync.status', mapped, 'user-report', { sourceText: text, now }).changed) changedPaths.push('sync.status');
+    }
+  }
+
   let prefix = '';
   if (changedPaths.length) {
     supersedeAttempts(state, changedPaths);

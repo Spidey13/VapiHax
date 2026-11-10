@@ -95,3 +95,25 @@ describe('handleTurn journey 2', () => {
     expect(s.facts['phone.platform'].status).toBe('confirmed');
   });
 });
+
+describe('sync/platform interplay', () => {
+  it('plain worked on a sync check sets sync done and moves to retry', async () => {
+    const s = mk();
+    await say(s, "I'm on my iPhone");
+    await say(s, 'it worked');
+    expect(s.facts['sync.status'].value).toBe('reported-done');
+    expect(s.attempts.filter((a) => a.checkId === 'ios-credential-sync')).toHaveLength(1);
+    expect(s.currentCheck?.check.id).toBe('retry-pairing-once');
+  });
+
+  it('platform change clears phone-specific sync status', async () => {
+    const s = mk();
+    await say(s, "I'm on my iPhone");
+    await say(s, 'I tried that and it failed');
+    expect(s.facts['sync.status'].value).toBe('failed');
+    await say(s, "Actually I'm using my Android tablet");
+    expect(s.facts['sync.status'].value).toBeNull();
+    await say(s, 'yes, Google services');
+    expect(s.currentCheck?.check.id).toBe('android-credential-sync');
+  });
+});

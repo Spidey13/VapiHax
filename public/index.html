@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Setup Relay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner" role="note">EXAMPLE CASE — synthetic household</div>
+  <main>
+    <h1>Setup Relay</h1>
+    <p class="sub">Eve Energy (Matter over Thread) &middot; Home Assistant &middot; one check at a time.</p>
+
+    <section id="start">
+      <button id="btn-start">Start case</button>
+    </section>
+
+    <div id="app" hidden>
+      <section>
+        <form id="turn-form">
+          <input id="turn-input" autocomplete="off" placeholder="e.g. my Eve Energy won't pair, I'm on my iPhone" aria-label="Message">
+          <button type="submit">Send</button>
+        </form>
+        <p id="reply" class="reply" aria-live="polite"></p>
+      </section>
+
+      <section id="notices" aria-live="polite"></section>
+
+      <section>
+        <h2>Current check</h2>
+        <div id="check" class="card muted">No check yet.</div>
+      </section>
+
+      <section>
+        <h2>Attempts</h2>
+        <ol id="attempts" class="timeline"></ol>
+      </section>
+
+      <section>
+        <h2>Case facts <small>(editable)</small></h2>
+        <table id="facts"></table>
+      </section>
+
+      <section class="row">
+        <button id="btn-md">Download packet (.md)</button>
+        <button id="btn-json">Download packet (.json)</button>
+        <button id="btn-reset" class="secondary">Reset</button>
+      </section>
+      <p id="outcome" class="outcome"></p>
+    </div>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
