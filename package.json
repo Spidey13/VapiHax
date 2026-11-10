@@ -9,7 +9,9 @@
     "test": "vitest run",
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "vapi:sync": "tsx scripts/vapi-sync.ts",
+    "live": "tsx scripts/live.ts"
   },
   "type": "module",
   "engines": {
