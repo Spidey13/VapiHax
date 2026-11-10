@@ -32,3 +32,22 @@ All `/api/sessions/:id/*` routes need `Authorization: Bearer <token>` from `POST
 
 - Phase 2: Vapi assistant config (custom-llm → `${PUBLIC_URL}/vapi`), `@vapi-ai/web` call + `/bind`, `/vapi/events` webhook, stable-partial read-only prefetch, latency trace, HTTPS tunnel, verify the real request envelope.
 - Phase 3: Exa live refresh (labeled "live"), Jev interpreter with rule fallback, 60 s demo script + replay mode.
+
+## Live voice mode (Phase 2)
+
+```
+npm run live      # starts the server + a cloudflared quick tunnel, writes PUBLIC_URL, creates/updates the Vapi assistant
+npm run vapi:sync # re-sync the assistant only (needs PUBLIC_URL set)
+```
+
+`.env` needs `VAPI_PRIVATE_KEY`, `VAPI_PUBLIC_KEY`, `VAPI_CUSTOM_LLM_SECRET`, `DEEPGRAM_API_KEY` (registered as a Vapi Deepgram credential, idempotently). The sync script edits only the `VAPI_ASSISTANT_ID=` and `PUBLIC_URL=` lines. Verified Vapi fields: `docs/superpowers/research/vapi-verified.md`.
+
+Human mic test:
+1. `npm run live`, wait for "Tunnel: https://….trycloudflare.com" and "assistant updated/created".
+2. Open http://localhost:3000, click **Start case**, then **Start voice**; allow the microphone. Don't read setup codes aloud.
+3. Wait for "live — talk now" (the call is bound to your case by call id before the mic opens).
+4. Say: "My Eve Energy won't pair, I'm on my iPhone." Expect a spoken next check, captions (grey = partial), and the Current check card updating.
+5. Say: "Actually I'm using my Android tablet." Expect "The iPhone step no longer applies" and a Google Play services question.
+6. Interrupt the assistant mid-sentence once; it should stop. Open "Reviewer" for the latency trace (firstPartial → stable → prefetchDone → final → llmReq → firstByte).
+7. Ctrl+C stops the server and the tunnel. The tunnel URL changes every run (the next `npm run live` re-syncs the assistant).
+8. If voice fails, tick "Text + spoken reply" (browser speechSynthesis, not Vapi).

@@ -9,3 +9,4 @@
 - Server event body: `{message:{type, call:{id}, ...}}`; transcript: `{type:'transcript', role, transcriptType:'partial'|'final', transcript}`; may also arrive as `type:'transcript[transcriptType="final"]'`. speech-update: `{status:'started'|'stopped', role, turn}`.
 - Web SDK 3.1.0: `start(assistant: string|object, overrides?) : Promise<Call|null>`; `call.id` is the call id. Events: `call-start`, `message`, `speech-start/end`, `error`.
 - NOT verified from docs (verify live): the exact custom-LLM request body (is `call` included?). The server logs the body keys of the first request.
+- Credentials: `POST/GET https://api.vapi.ai/credential` (path from @vapi-ai/web@3.1.0 api.js); body `{provider:'deepgram', apiKey, name?}` (CreateDeepgramCredentialDTO); list items carry `provider` and `id`. Assistant `credentialIds` selects a subset of credentials (default: all available).

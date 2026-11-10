@@ -4,11 +4,12 @@ export const KEYTERMS = [
   'border router', 'iPhone', 'Android', 'Google Play services',
 ];
 
-export function buildAssistantPayload(opts: { publicUrl: string; secret: string }) {
+export function buildAssistantPayload(opts: { publicUrl: string; secret: string; credentialIds?: string[] }) {
   const base = opts.publicUrl.replace(/\/+$/, '');
   const headers = { 'x-vapi-secret': opts.secret };
   return {
     name: 'Setup Relay',
+    ...(opts.credentialIds?.length ? { credentialIds: opts.credentialIds } : {}),
     firstMessage: "Setup Relay here. This is an example case. What's happening with your device?",
     model: {
       provider: 'custom-llm',
