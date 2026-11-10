@@ -27,6 +27,7 @@ function el(tag, props = {}, ...kids) {
 async function sendTurn(text) {
   const r = await (await api(`/${session.id}/turn`, { method: 'POST', body: JSON.stringify({ text }) })).json();
   $('reply').textContent = r.reply;
+  if ($('chk-tts').checked && 'speechSynthesis' in window) speechSynthesis.speak(new SpeechSynthesisUtterance(r.reply));
   render(r.state);
 }
 
@@ -125,3 +126,81 @@ $('btn-reset').onclick = async () => {
   $('reply').textContent = 'Case reset to the example fixture.';
   render(r.state);
 };
+
+// ---- Voice (Vapi web SDK) ----
+const VAPI_WEB = 'https://cdn.jsdelivr.net/npm/@vapi-ai/web@3.1.0/+esm';
+let vapi = null;
+let pollTimer = null;
+const caps = []; // {role, text, partial}  display-only
+
+function drawCaptions() {
+  $('captions').replaceChildren(
+    ...caps.slice(-8).map((c) => el('div', { style: c.partial ? 'color:#888' : '', textContent: `${c.role === 'user' ? 'You' : 'Relay'}: ${c.text}` })),
+  );
+}
+async function refresh() {
+  try {
+    render(await (await api(`/${session.id}`)).json());
+    const t = (await (await api(`/${session.id}/trace`)).json()).traces.slice(-3);
+    $('trace').textContent = t.length
+      ? t
+          .map((x) => {
+            const b = x.firstPartialAt ?? x.finalAt ?? x.llmRequestAt;
+            const f = (k) => (x[k] ? `+${x[k] - b}ms` : '-');
+            return `firstPartial ${f('firstPartialAt')} stable ${f('stablePartialAt')} prefetchDone ${f('prefetchDoneAt')} final ${f('finalAt')} llmReq ${f('llmRequestAt')} firstByte ${f('firstByteAt')} prefetchHit ${x.prefetchHit ?? '-'}`;
+          })
+          .join('\n')
+      : 'no trace yet';
+  } catch {
+    /* ignore */
+  }
+}
+async function startVoice() {
+  const cfg = await (await fetch('/api/config')).json();
+  if (!cfg.vapiPublicKey || !cfg.assistantId) {
+    $('voice-status').textContent = 'Voice not configured (run npm run live).';
+    return;
+  }
+  $('btn-voice').disabled = true;
+  $('voice-status').textContent = 'connecting…';
+  try {
+    const { default: Vapi } = await import(VAPI_WEB);
+    vapi = new Vapi(cfg.vapiPublicKey);
+    vapi.on('message', (m) => {
+      if (m.type === 'transcript') {
+        const last = caps[caps.length - 1];
+        if (last && last.partial && last.role === m.role) caps.pop();
+        caps.push({ role: m.role, text: m.transcript, partial: m.transcriptType === 'partial' });
+        drawCaptions();
+      }
+      if (m.type === 'speech-update') refresh();
+    });
+    vapi.on('error', (e) => {
+      $('voice-status').textContent = 'voice error: ' + (e?.message ?? e?.error?.message ?? 'see console');
+      console.error(e);
+    });
+    vapi.on('call-end', () => stopVoice());
+    const call = await vapi.start(cfg.assistantId);
+    const callId = call?.id;
+    if (!callId) throw new Error('no call id returned from start()');
+    try { vapi.setMuted(true); } catch { /* ignore */ }
+    $('voice-status').textContent = 'binding…';
+    await api(`/${session.id}/bind`, { method: 'POST', body: JSON.stringify({ callId }) });
+    try { vapi.setMuted(false); } catch { /* ignore */ }
+    $('voice-status').textContent = 'live — talk now';
+    $('btn-voice').textContent = 'Stop';
+    $('btn-voice').disabled = false;
+    pollTimer = setInterval(refresh, 1000);
+  } catch (e) {
+    $('voice-status').textContent = 'voice failed: ' + e.message;
+    stopVoice();
+  }
+}
+function stopVoice() {
+  try { vapi?.stop(); } catch { /* ignore */ }
+  vapi = null;
+  clearInterval(pollTimer);
+  $('btn-voice').textContent = 'Start voice';
+  $('btn-voice').disabled = false;
+}
+$('btn-voice').onclick = () => (vapi ? stopVoice() : startVoice());

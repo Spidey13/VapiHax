@@ -25,6 +25,17 @@
         <p id="reply" class="reply" aria-live="polite"></p>
       </section>
 
+      <section id="voice">
+        <h2>Voice</h2>
+        <p class="sub">Uses your microphone (browser will ask). Don't read setup codes aloud.</p>
+        <div class="row">
+          <button id="btn-voice">Start voice</button>
+          <label><input type="checkbox" id="chk-tts"> Text + spoken reply <small>(voice fallback, not Vapi)</small></label>
+        </div>
+        <p id="voice-status" class="sub"></p>
+        <div id="captions" class="card muted" aria-live="polite"></div>
+      </section>
+
       <section id="notices" aria-live="polite"></section>
 
       <section>
@@ -48,6 +59,10 @@
         <button id="btn-reset" class="secondary">Reset</button>
       </section>
       <p id="outcome" class="outcome"></p>
+      <details id="reviewer"><summary>Reviewer: latency trace &amp; live/fixture labels</summary>
+        <p class="sub">Live: Vapi call, Deepgram STT/TTS, custom-LLM replies (when a voice call is active). Fixture: household facts and curated sources.</p>
+        <pre id="trace">no trace yet</pre>
+      </details>
     </div>
   </main>
   <script type="module" src="app.js"></script>
