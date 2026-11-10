@@ -10,6 +10,8 @@ import { RuleInterpreter, type Interpreter } from './engine/interpret.js';
 import { handleTurn, settle } from './engine/turn.js';
 import { toJson, toMarkdown, BANNER } from './packet.js';
 import { mountVapi } from './vapi/customLlm.js';
+import { mountEvents } from './vapi/events.js';
+import { Prefetcher, type Trace } from './engine/prefetch.js';
 
 export interface Deps {
   store: CaseStore;
@@ -19,6 +21,11 @@ export interface Deps {
   /** Vapi callId -> sessionId. Only ever set through an authenticated /bind. */
   bindings: Map<string, string>;
   vapiSecret?: string;
+  /** Bumped on user interruption; SSE writers stop when it changes. */
+  responseEpoch: Map<string, number>;
+  traces: Map<string, Trace[]>;
+  prefetch: Prefetcher;
+  publicConfig: { vapiPublicKey?: string; assistantId?: string };
 }
 
 export function defaultDeps(overrides: Partial<Deps> = {}): Deps {
@@ -28,6 +35,10 @@ export function defaultDeps(overrides: Partial<Deps> = {}): Deps {
     tokens: new Map(),
     bindings: new Map(),
     vapiSecret: process.env.VAPI_CUSTOM_LLM_SECRET || undefined,
+    responseEpoch: new Map(),
+    traces: new Map(),
+    prefetch: new Prefetcher(),
+    publicConfig: { vapiPublicKey: process.env.VAPI_PUBLIC_KEY || undefined, assistantId: process.env.VAPI_ASSISTANT_ID || undefined },
     ...overrides,
   };
 }
@@ -140,7 +151,12 @@ export function createApp(deps: Deps = defaultDeps()): Express {
     res.json({ bound: true });
   });
 
+  app.get('/api/sessions/:id/trace', auth, (req, res) => res.json({ traces: deps.traces.get(String(req.params.id)) ?? [] }));
+  // Public key is browser-safe. The private key is never exposed.
+  app.get('/api/config', (_req, res) => res.json(deps.publicConfig));
+
   mountVapi(app, deps, lock);
+  mountEvents(app, deps);
 
   const here = path.dirname(fileURLToPath(import.meta.url));
   app.use(express.static(path.join(here, '..', 'public')));

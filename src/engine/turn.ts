@@ -2,26 +2,37 @@ import type { CaseState, DependencyStamp } from '../case/types.js';
 import { resolveConflict, setFact } from '../case/facts.js';
 import { recordAttempt, supersedeAttempts } from '../case/attempts.js';
 import type { Interpreter } from './interpret.js';
-import { selectNext, stampFor } from './select.js';
+import { selectNext, stampFor, type Selection } from './select.js';
+import { isStillCurrent } from './respond.js';
 import { selectionReply, TEXT, checkReply } from './respond.js';
 
 export interface TurnResult {
   reply: string;
   stamp: DependencyStamp | null;
   state: CaseState;
+  prefetchHit?: boolean;
+}
+
+/** A speculative selection computed from stable partials. `used` is set when settle reused it. */
+export interface Prefetched {
+  sel: Selection;
+  used: boolean;
 }
 
 const PLATFORM_LABEL: Record<string, string> = { ios: 'iPhone', android: 'Android' };
 
 /** Apply the selection to state (currentCheck, outcome, pendingQuestion) and build the reply. */
-export function settle(state: CaseState, source: 'text' | 'voice', prefix = ''): TurnResult {
+export function settle(state: CaseState, source: 'text' | 'voice', prefix = '', pre?: Prefetched): TurnResult {
   state.pendingQuestion = null;
   if (state.outcome === 'user-reported-recovered') {
     state.currentCheck = null;
     state.revision += 1;
     return { reply: TEXT.recovered, stamp: stampFor(state, ['phone.platform', 'sync.status']), state };
   }
-  const sel = selectNext(state);
+  // Reuse a prefetched selection only if its dependency stamp is still current after the real apply.
+  const reusable = pre && (pre.sel.kind === 'check' || pre.sel.kind === 'unsupported') && isStillCurrent(state, pre.sel.stamp);
+  const sel = reusable ? pre.sel : selectNext(state);
+  if (pre && reusable) pre.used = true;
   let stamp: DependencyStamp;
   switch (sel.kind) {
     case 'check':
@@ -58,6 +69,7 @@ export async function handleTurn(
   source: 'text' | 'voice',
   interpreter: Interpreter,
   now = Date.now(),
+  prefetched?: Prefetched,
 ): Promise<TurnResult> {
   state.lastActivity = now;
 
@@ -147,5 +159,6 @@ export async function handleTurn(
     const r = settle(state, source);
     return { ...r, reply: `${TEXT.unknown} ${r.reply}` };
   }
-  return settle(state, source, prefix);
+  const r = settle(state, source, prefix, interp.attempt ? undefined : prefetched);
+  return { ...r, prefetchHit: prefetched?.used === true };
 }
