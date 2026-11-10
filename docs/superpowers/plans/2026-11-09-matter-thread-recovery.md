@@ -237,7 +237,46 @@ Tests (`test/turn.test.ts`), Journey 2 end to end:
 
 ---
 
-## Phase 2 outline: live voice + partials (detailed after Phase 1)
+## Phase 2: live voice + partials (detailed)
+
+**Facts from Phase 1:** the custom-LLM route is `POST /vapi/chat/completions`. Auth is `Authorization: Bearer <VAPI_CUSTOM_LLM_SECRET>` or `x-vapi-secret`. A call binds to a case only via `POST /api/sessions/:id/bind {callId}`. `isStillCurrent(state, stamp)` and `settle()` exist. `.env` has every key set; `VAPI_ASSISTANT_ID` and `PUBLIC_URL` are blank. cloudflared is installed.
+
+**Verify before coding:** fetch the Markdown docs (append `.md`, or use https://docs.vapi.ai/llms.txt) for: assistant create/update (`POST/PATCH https://api.vapi.ai/assistant`), the custom-llm model fields (url, auth/headers, or a credential), the transcriber deepgram `nova-3` keyterm field name, the deepgram voice fields, `server.url`/secret/headers, the `serverMessages` names, and the web SDK `start()` return value (call id). Don't guess field names. Record what you verified in `docs/superpowers/research/vapi-verified.md`.
+
+### Task 11: Assistant sync script
+- [ ] `scripts/vapi-sync.ts` (`npm run vapi:sync`) reads `.env` and creates the assistant if `VAPI_ASSISTANT_ID` is blank, otherwise PATCHes it. Config:
+  - model custom-llm → `${PUBLIC_URL}/vapi`, with our secret sent as a header Vapi forwards;
+  - transcriber deepgram nova-3, en, keyterms `ZBT-2, Eve Energy, Home Assistant, Thread, Matter, Companion, border router, iPhone, Android, Google Play services`;
+  - voice deepgram aura-2 (pick a valid voice id);
+  - a short firstMessage ("Setup Relay here. This is an example case. What's happening with your device?");
+  - server url `${PUBLIC_URL}/vapi/events` with the same secret;
+  - serverMessages including transcript (partial+final), speech-update, user-interrupted, status-update, end-of-call-report;
+  - endpointing tuned for short turns (use the documented start-speaking plan fields).
+- [ ] It may modify **only** the `VAPI_ASSISTANT_ID=` and `PUBLIC_URL=` lines of `.env`. Never print key values. A unit test covers the payload builder (pure function); the network call itself is not unit-tested.
+
+### Task 12: One-command live mode
+- [ ] `scripts/live.ts` (`npm run live`): start the server, start `cloudflared tunnel --url http://localhost:$PORT`, parse the `https://*.trycloudflare.com` URL from its output, write `PUBLIC_URL`, run the sync, then print the local UI URL. Ctrl+C kills both children. Test the URL parser.
+
+### Task 13: Events webhook + partial prefetch + interruption
+- [ ] `POST /vapi/events`: same auth as custom-llm; session from `message.call.id` via the binding map only. Unknown/unbound → 200 with no effect. Respond fast (do the work after acking).
+- [ ] `transcript` role=user partial: run the interpreter on the partial in **quarantine** (no fact mutation). If the candidate fact set is identical across **two consecutive partials** → "stable" → prefetch: compute the selection on a cloned state with those candidate facts applied. Cache it keyed by `(sessionId, epoch, baseRevision, candidateFactsJSON)`. Keep only the newest pending prefetch.
+- [ ] In the custom-LLM handler, after interpreting the final text, look up the cache with the same key. On a hit whose stamp `isStillCurrent` after the real apply, reuse the computed selection (mark `prefetchHit:true`). Otherwise compute normally. Facts change only here.
+- [ ] `user-interrupted` / new user speech-update started → bump `responseEpoch`. SSE writer checks it between sentence chunks and stops (finish_reason stop) if it changed.
+- [ ] Latency trace per utterance: `firstPartialAt, stablePartialAt, prefetchDoneAt, finalAt, llmRequestAt, firstByteAt, prefetchHit`. `GET /api/sessions/:id/trace` (token auth). Log the **keys** (not values) of the first live custom-LLM body and the first events body to verify the envelope.
+- [ ] Tests: two stable partials trigger exactly one prefetch; a changed partial resets stability; a partial never mutates facts; a prefetch hit is used and a stale prefetch (correction in between) is rejected; an interrupt stops a stream mid-way; unbound events are ignored.
+
+### Task 14: Browser voice
+- [ ] `GET /api/config` → `{vapiPublicKey, assistantId}` (the public key is fine for the browser; never send the private key).
+- [ ] Load `@vapi-ai/web` from `https://cdn.jsdelivr.net/npm/@vapi-ai/web@<pinned exact version>/+esm`. Add a "Start voice" / "Stop" button (user gesture), a mic consent note, and a "don't read setup codes aloud" note. Get the call id from `start()` (or the `call-start` event) → POST bind. Disable talking until bound; show "binding…".
+- [ ] Live captions from `message` transcript events, partials in grey (display only). The case panels refresh after each assistant turn (poll the state on `speech-update` or every 1 s during a call).
+- [ ] A reviewer panel (collapsed) shows the latency trace and live/fixture labels.
+- [ ] Fallback toggle "Text + spoken reply": text turns with replies read by browser `speechSynthesis`, labeled "voice fallback (not Vapi)".
+
+### Task 15: Live smoke (agent part)
+- [ ] Run `npm run live`. Verify via curl through the tunnel that `/vapi/chat/completions` with the secret and a fake bound call returns SSE, and that a request without the secret returns 401. Verify the assistant exists via GET. Stop the processes.
+- [ ] README: a live-mode section. Report the exact steps for the human mic test (the agent cannot speak). STOP; do not start Phase 3.
+
+## Phase 2 original outline (superseded by the detailed tasks above)
 
 1. **Vapi assistant config (server-side, never from the browser):** model provider `custom-llm` → `${PUBLIC_URL}/vapi` with the secret; transcriber Deepgram `nova-3` with **keyterms** (`ZBT-2`, `Eve Energy`, `Home Assistant`, `Thread`, `Matter`, `Companion`, `border router`, `iPhone`, `Android`); voice Deepgram Aura-2; tight endpointing (start-speaking plan tuned for short turns). Server URL subscribed to `transcript` (partial + final), `speech-update`, `user-interrupted`, `status-update`, `end-of-call-report`.
 2. **Browser:** `@vapi-ai/web` via CDN ESM; start the call on a user gesture with `assistantId` + `metadata.sessionId`; after `call-start`, POST `/bind {callId}`. Captions come from client `message` events and are display-only.
@@ -246,7 +285,44 @@ Tests (`test/turn.test.ts`), Journey 2 end to end:
 5. **Tunnel:** HTTPS with SSE support (cloudflared or ngrok); verify the real `/chat/completions` path Vapi calls.
 6. Probe gate (first 15 min): if the custom-LLM binding or replies fail → text input + spoken output fallback, labeled on screen.
 
-## Phase 3 outline: Exa + Jev + demo
+## Phase 3: Exa + Jev + demo (detailed; speed over tests)
+
+User direction: make it work fast. Add at most one or two cheap tests, and list the rough edges in the report. Both providers sit behind timeouts with curated/rule fallbacks, so the demo never blocks on them.
+
+### Task 16: Exa live source refresh
+- [ ] Verify the current `exa-js` API (`searchAndContents`, `includeDomains`, freshness via `maxAgeHours`; `livecrawl` is deprecated) from the official docs before coding. `EXA_API_KEY` comes from env.
+- [ ] `src/sources/exa.ts`: `refreshSource(check)` → one query per check (e.g. "Home Assistant Thread sync credentials Android Companion app"), with `includeDomains` limited to that check's source domain(s) (home-assistant.io, evehome.com, support.apple.com), 1–3 results, short highlights. Map results to `SourceRef{mode:'live', fetchedAt, url, title, snippet}`. Cache per check id for 10 min. At most 2 in flight. Timeout 3 s.
+- [ ] Hook points: (a) when a check is issued, and (b) **on stable-partial prefetch** for the check the prefetch selected, so the lookup is hidden inside the user's speaking time. Record `exaMs` and `exaStartedFromPartial` in the latency trace.
+- [ ] Live results only **attach** to curated checks. They never create or change a check's action text. A result on a different domain or with an empty body is dropped. On a 401/429/timeout, show "live refresh unavailable — curated source shown".
+- [ ] UI: the source chip shows `live · fetched HH:MM` or `curated · 2026-11-09`. The packet lists both.
+
+### Task 17: Jev (TypeSafe) interpreter
+- [ ] `npm i @typesafe-ai/sdk` (needs Node 22+; we're on 24). The client reads `TYPESAFE_API_KEY` from env: `new TypeSafeClient()`. Use `client.systemOne({ state, questions })` with `noul(...)` / `choice(...)` and read `response.answers.<name>.noul|choice`. Log the **keys** of the first response to confirm the shape; treat `noul` as a 0–1 value unless the response shows otherwise.
+- [ ] `src/engine/jevInterpreter.ts` implements `Interpreter`. The RuleInterpreter still extracts the candidate facts (exact phone/hub/identifier spans). Jev only decides the **kind** when the rule output involves a phone mention or attempt words. One batched call:
+  - state `{ utterance, currentPhone, currentStep }`;
+  - `replacing: noul("Is the speaker saying the phone they are actually using now is different from what they said before?")`;
+  - `hypothetical: noul("Is the speaker only asking about a possible different phone, not stating what they use?")`;
+  - `reportsResult: noul("Does the speaker report the result of the current step?")`;
+  - `result: choice("What result does the speaker report?", {worked:null, failed:null, notDone:null, none:null})`.
+- [ ] Bands: >0.7 yes, <0.3 no, otherwise unresolved. If replacing and hypothetical are both yes, or either is unresolved → the clarify reply. Timeout 1.5 s or an error → RuleInterpreter result (trace `interpreter:'rule-fallback'`). Trace `jevMs` and `interpreter:'jev'|'rule-fallback'`.
+- [ ] Also run Jev on a stable partial during prefetch (cache by normalized text), so the final turn usually hits the cache.
+- [ ] Use Jev when the key is set and `JEV_ENABLED!=0`; otherwise use rules. The UI reviewer panel shows which interpreter answered.
+
+### Task 17b: Deepgram, visible as a sponsor
+- [ ] Phase 2 sync registers `DEEPGRAM_API_KEY` as Vapi's deepgram credential, so Nova-3 STT and Aura-2 TTS run on the user's Deepgram account. Confirm it via GET credential.
+- [ ] Direct Deepgram use: `src/voice/deepgramTts.ts` → `POST https://api.deepgram.com/v1/speak?model=aura-2-<voice>-en` (header `Authorization: Token $DEEPGRAM_API_KEY`; verify in the Deepgram docs) and a route `POST /api/sessions/:id/speak {text}` that streams audio/mpeg. It replaces browser `speechSynthesis` in the "Text + spoken reply" fallback and in REPLAY mode, so even the fallback runs on Deepgram. Cache by text hash in memory.
+- [ ] UI footer/reviewer panel: "Speech: Deepgram Nova-3 (keyterms: ZBT-2, Eve Energy, …) · Voice: Deepgram Aura-2 · via Vapi". Show the keyterm list and highlight keyterms when they appear in captions (it demonstrates the identifier recognition).
+- [ ] DEMO.md talking point: Deepgram keyterms make "ZBT-2" / "Eve Energy" transcribe correctly. Show one caption.
+
+### Task 18: Demo polish
+- [ ] `DEMO.md`: a 60 s script — start voice → "my Eve Energy won't pair, I'm on my iPhone" → "actually I'm using my Android tablet" (old step visibly superseded) → "yes it has Google Play services" → Android sync check + live source chip → "I already tried that and it failed" → attempt timeline → download packet. Include talking points for the latency trace (partial → prefetch → reply) and a fallback line for each provider.
+- [ ] A "Run scripted demo (replay)" button that sends the same turns as text with ~1.5 s gaps, labeled **REPLAY** on screen. It's for when venue audio or the network fails.
+- [ ] Reviewer panel: show the last utterance's timings (firstPartial → stablePartial → prefetch/Exa/Jev done → final → first byte), plus prefetch hit/miss.
+
+### Task 19: Smoke + handoff
+- [ ] `npm test` and `npm run typecheck`. Run `npm run live`, curl one bound fake turn through the tunnel, and confirm the Exa chip and the Jev trace fields appear in state (or the fallbacks are labeled). Stop the processes. Update the README. Report the rough edges.
+
+## Phase 3 original outline (superseded)
 
 1. **Exa:** `exa-js` `searchAndContents` with `includeDomains` (home-assistant.io, evehome.com, support.apple.com), `maxAgeHours` for freshness; results become `SourceRef{mode:'live'}` cards that **support** curated checks. They never create new checks. Abstain on scope mismatch, 401, 429, or timeout.
 2. **Jev:** `JevInterpreter implements Interpreter` via `@typesafe-ai/sdk` (Node 22+). Batch questions: replacing current phone? / asking about a different phone? / reports result of check X? Noul bands >0.7 / <0.3; both-yes or an error → clarify; timeout → RuleInterpreter fallback. Re-read the official skill before coding.
