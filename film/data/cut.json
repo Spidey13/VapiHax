@@ -1,0 +1,80 @@
+{
+ "note": "Synthetic dinner/barbecue cut for the stand-in session. The Launch replay uses film/data/launch-session.json.",
+ "opener": {
+  "src": [
+   20.6,
+   29.2
+  ],
+  "zoom": {
+   "at": 26.5,
+   "scale": 1.6
+  }
+ },
+ "title": 2.4,
+ "beats": [
+  {
+   "id": "plan",
+   "src": [
+    4.9,
+    16.2
+   ],
+   "trim": true
+  },
+  {
+   "id": "fork",
+   "src": [
+    20.4,
+    30.0
+   ],
+   "trim": true,
+   "card": {
+    "title": "Forked.",
+    "line": "The dinner plan is still there."
+   }
+  },
+  {
+   "id": "back",
+   "src": [
+    49.2,
+    60.2
+   ],
+   "trim": true,
+   "card": {
+    "title": "Back to the dinner.",
+    "line": "Found by description, not by name."
+   }
+  },
+  {
+   "id": "compare",
+   "src": [
+    63.7,
+    75.7
+   ],
+   "card": {
+    "title": "Compared.",
+    "line": "Each thread kept its own history."
+   }
+  },
+  {
+   "id": "merge",
+   "src": [
+    76.3,
+    88.7
+   ],
+   "card": {
+    "title": "Combined.",
+    "line": "One plan from both."
+   }
+  },
+  {
+   "id": "end",
+   "src": [
+    92.1,
+    96.6
+   ],
+   "frame": "end"
+  }
+ ],
+ "numbers": 5.2,
+ "endCard": 3
+}

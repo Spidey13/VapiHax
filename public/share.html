@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>Brainstorm summary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..600&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body class="scroll">
+<div id="field" aria-hidden="true"><i class="amb"></i><i class="glow"><i class="core"></i></i></div>
+<div id="frost" aria-hidden="true"></div>
+<main id="share" class="end-host" aria-live="polite"><p class="share-note">Loading…</p></main>
+<script type="module">
+import { renderEndPage } from '/js/endPage.js';
+const container = document.getElementById('share');
+const id = location.pathname.split('/').filter(Boolean).pop() || '';
+try {
+  const res = await fetch('/api/share/' + encodeURIComponent(id), { cache: 'no-store' });
+  if (!res.ok) throw new Error('missing');
+  renderEndPage(container, await res.json());
+} catch {
+  container.replaceChildren(Object.assign(document.createElement('p'), { className: 'share-note', textContent: 'This summary is no longer available.' }));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "branch-voice",
+  "version": "1.0.0",
+  "description": "Git-like branching voice mode for brainstorming",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "vapi:sync": "tsx scripts/vapi-sync.ts",
+    "live": "tsx scripts/live.ts",
+    "eval:router": "tsx scripts/eval-router.ts",
+    "tune:router": "tsx scripts/tune-router.ts",
+    "latency": "tsx scripts/latency.ts",
+    "ttft": "tsx scripts/ttft.ts",
+    "film:sync": "tsx scripts/film-sync.ts",
+    "film:app": "node scripts/film-copy-app.mjs",
+    "film:standin": "tsx scripts/film-standin.ts",
+    "film:render": "node scripts/film-render.mjs",
+    "film:studio": "npm --prefix film run studio"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@typesafe-ai/sdk": "^0.7.0",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.3.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

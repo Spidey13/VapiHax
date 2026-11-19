@@ -1,0 +1,4328 @@
+{
+ "version": 1,
+ "offset": 0,
+ "standIn": false,
+ "events": [
+  {
+   "t": 0,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 0,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 0
+     }
+    ],
+    "path": [],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": []
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": null,
+    "ended": null
+   }
+  },
+  {
+   "t": 1.953,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 2.654,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Hi."
+  },
+  {
+   "t": 2.948,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Hi."
+  },
+  {
+   "t": 3.821,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "What are you thinking"
+  },
+  {
+   "t": 4.029,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 4.184,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "What are you thinking about?"
+  },
+  {
+   "t": 6.561,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "So"
+  },
+  {
+   "t": 7.555,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "So 3 of us have"
+  },
+  {
+   "t": 7.983,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "So 3 of us have"
+  },
+  {
+   "t": 8.943,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "7 nights and"
+  },
+  {
+   "t": 10.195,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "7 nights in Japan this"
+  },
+  {
+   "t": 10.305,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "7 nights in Japan this window."
+  },
+  {
+   "t": 11.295,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm think"
+  },
+  {
+   "t": 12.241,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 2,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 0
+     }
+    ],
+    "path": [],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": []
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": null,
+    "ended": null
+   }
+  },
+  {
+   "t": 12.329,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm thinking Tokyo and"
+  },
+  {
+   "t": 13.291,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm thinking Tokyo and Kyoto for"
+  },
+  {
+   "t": 13.368,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "I'm thinking Tokyo and Kyoto for"
+  },
+  {
+   "t": 13.732,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 14.306,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "food and temples."
+  },
+  {
+   "t": 14.61,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "food and temples."
+  },
+  {
+   "t": 14.904,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 15.852,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 15.856,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 3,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 15339,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 15.912,
+   "type": "playback",
+   "turn": 1,
+   "text": "Mm, let me think."
+  },
+  {
+   "t": 16.759,
+   "type": "playback",
+   "turn": 1,
+   "text": "Mm, let me think. That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them."
+  },
+  {
+   "t": 16.778,
+   "type": "playback",
+   "turn": 1,
+   "text": "Mm, let me think. That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them."
+  },
+  {
+   "t": 17.242,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 4,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 17.262,
+   "type": "playback",
+   "turn": 1,
+   "text": "Mm, let me think. That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?"
+  },
+  {
+   "t": 17.67,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Let me think."
+  },
+  {
+   "t": 18.674,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Let me think. That pairing"
+  },
+  {
+   "t": 19.671,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Let me think. That pairing works well for 7"
+  },
+  {
+   "t": 20.673,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Let me think. That pairing works well for 7 nights. 4"
+  },
+  {
+   "t": 21.688,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Let me think. That pairing works well for 7 nights."
+  },
+  {
+   "t": 21.699,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "4 in Tokyo and 3"
+  },
+  {
+   "t": 22.699,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "4 in Tokyo and 3 in Kyoto is"
+  },
+  {
+   "t": 23.677,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "4 in Tokyo and 3 in Kyoto is a natural split."
+  },
+  {
+   "t": 23.755,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "4 in Tokyo and 3 in Kyoto is a natural split."
+  },
+  {
+   "t": 24.722,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "With the bullet"
+  },
+  {
+   "t": 25.752,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "With the bullet train between them."
+  },
+  {
+   "t": 26.733,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Do you want to add a"
+  },
+  {
+   "t": 27.602,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 27.742,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Do you want to add a day trip like Nara?"
+  },
+  {
+   "t": 27.836,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Do you want to add a day trip like Nara?"
+  },
+  {
+   "t": 30.904,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 30.945,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "What if they did"
+  },
+  {
+   "t": 31.92,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "What if we did Hokkaido and"
+  },
+  {
+   "t": 31.941,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "What if"
+  },
+  {
+   "t": 31.96,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "we did Hokkaido instead?"
+  },
+  {
+   "t": 32.268,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "we did Hokkaido instead?"
+  },
+  {
+   "t": 33.285,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "A small free"
+  },
+  {
+   "t": 34.269,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "A small ryokan"
+  },
+  {
+   "t": 34.695,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "A small ryokan near"
+  },
+  {
+   "t": 35.525,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Niseko"
+  },
+  {
+   "t": 36.515,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "hot springs"
+  },
+  {
+   "t": 37.513,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "hot springs and 2 ski"
+  },
+  {
+   "t": 38.222,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "hot springs and 2 ski mornings."
+  },
+  {
+   "t": 38.604,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 39.24,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 6,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "New path",
+      "status": "provisional",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 39168,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "New path",
+      "status": "provisional",
+      "originName": "Main",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Main",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "fork",
+      "acknowledge": false
+     },
+     "intent": "newDirection",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 39.24,
+   "type": "play",
+   "phase": "start",
+   "kind": "fork",
+   "revision": 6
+  },
+  {
+   "t": 39.690000000000005,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 7,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "New path",
+      "status": "provisional",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 40629,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+      "at": 40629
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "New path",
+      "status": "provisional",
+      "originName": "Main",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+        "at": 40629
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Main",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "fork",
+      "acknowledge": false
+     },
+     "intent": "newDirection",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 39.74,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 9,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "provisional",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 40629,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+      "at": 40629
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Hokkaido ryokan",
+      "status": "provisional",
+      "originName": "Tokyo and Kyoto",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+        "at": 40629
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Tokyo and Kyoto",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "fork",
+      "acknowledge": false
+     },
+     "intent": "newDirection",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 39.741,
+   "type": "play",
+   "phase": "start",
+   "kind": "refresh",
+   "revision": 9
+  },
+  {
+   "t": 39.741,
+   "type": "play",
+   "phase": "end",
+   "kind": "refresh",
+   "revision": 9
+  },
+  {
+   "t": 40.364,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 40.423,
+   "type": "playback",
+   "turn": 2,
+   "text": "That's a very different trip, slower and more about snow and soaking than food and temples."
+  },
+  {
+   "t": 40.444,
+   "type": "play",
+   "phase": "end",
+   "kind": "fork",
+   "revision": 6
+  },
+  {
+   "t": 40.664,
+   "type": "playback",
+   "turn": 2,
+   "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?"
+  },
+  {
+   "t": 40.879,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "The"
+  },
+  {
+   "t": 41.865,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "That's a very different trip."
+  },
+  {
+   "t": 41.907,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "That's a very different trip."
+  },
+  {
+   "t": 42.902,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "That's a very different trip, slower and"
+  },
+  {
+   "t": 43.605,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "That's a very different trip, slower and more about"
+  },
+  {
+   "t": 44.327,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "snow and snow"
+  },
+  {
+   "t": 45.335,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "snow and soaking than food and"
+  },
+  {
+   "t": 46.409,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "snow and soaking than food and temples. Our"
+  },
+  {
+   "t": 47.37,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "snow and soaking than food and temples. Are all 3 of you on"
+  },
+  {
+   "t": 48.359,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "snow and soaking than food and temples. Are all 3 of you on board, and do you"
+  },
+  {
+   "t": 48.4,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 48.618,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "ski?"
+  },
+  {
+   "t": 51.24,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 11,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 51213,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+      "at": 40629
+     },
+     {
+      "id": "t5",
+      "branchId": "b2",
+      "role": "user",
+      "text": "",
+      "at": 51213
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": "Tokyo and Kyoto",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+        "at": 40629
+       },
+       {
+        "id": "t5",
+        "branchId": "b2",
+        "role": "user",
+        "text": "",
+        "at": 51213
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Tokyo and Kyoto",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 51.24,
+   "type": "play",
+   "phase": "start",
+   "kind": "refresh",
+   "revision": 11
+  },
+  {
+   "t": 51.24,
+   "type": "play",
+   "phase": "end",
+   "kind": "refresh",
+   "revision": 11
+  },
+  {
+   "t": 51.241,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I meant"
+  },
+  {
+   "t": 51.443,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "I meant"
+  },
+  {
+   "t": 51.447,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 12,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "provisional",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 40629,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+      "at": 40629
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Hokkaido ryokan",
+      "status": "provisional",
+      "originName": "Tokyo and Kyoto",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+        "at": 40629
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Tokyo and Kyoto",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "fork",
+      "acknowledge": false
+     },
+     "intent": "newDirection",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 51.447,
+   "type": "play",
+   "phase": "start",
+   "kind": "refresh",
+   "revision": 12
+  },
+  {
+   "t": 51.447,
+   "type": "play",
+   "phase": "end",
+   "kind": "refresh",
+   "revision": 12
+  },
+  {
+   "t": 52.466,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Furano."
+  },
+  {
+   "t": 52.549,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Furano."
+  },
+  {
+   "t": 52.961,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Not"
+  },
+  {
+   "t": 53.792,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Niseko."
+  },
+  {
+   "t": 55.24,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 16,
+    "hold": false,
+    "currentBranchId": "b3",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+      "at": 40629
+     },
+     {
+      "id": "t5",
+      "branchId": "b3",
+      "role": "user",
+      "text": "I meant Furano. Not Niseko.",
+      "at": 54800,
+      "kind": "correction"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+        "at": 40629
+       },
+       {
+        "id": "t5",
+        "branchId": "b3",
+        "role": "user",
+        "text": "I meant Furano. Not Niseko.",
+        "at": 54800,
+        "kind": "correction"
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Tokyo and Kyoto",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "correct"
+     },
+     "intent": "correction",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 55.24,
+   "type": "play",
+   "phase": "start",
+   "kind": "correction",
+   "revision": 16
+  },
+  {
+   "t": 55.334,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 55.384,
+   "type": "playback",
+   "turn": 3,
+   "text": "Got it."
+  },
+  {
+   "t": 55.936,
+   "type": "playback",
+   "turn": 3,
+   "text": "Got it. Furano it is."
+  },
+  {
+   "t": 55.986,
+   "type": "playback",
+   "turn": 3,
+   "text": "Got it. Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ryokan feel."
+  },
+  {
+   "t": 56.112,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Got it."
+  },
+  {
+   "t": 56.443,
+   "type": "play",
+   "phase": "end",
+   "kind": "correction",
+   "revision": 16
+  },
+  {
+   "t": 56.786,
+   "type": "playback",
+   "turn": 3,
+   "text": "Got it. Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ryokan feel. You'd fly into Asahikawa or Sapporo, so a couple of nights in Sapporo for ramen could keep some food in the trip."
+  },
+  {
+   "t": 57.096,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Furano."
+  },
+  {
+   "t": 57.241,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 17,
+    "hold": false,
+    "currentBranchId": "b3",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 17222,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+      "at": 39168
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+      "at": 40629
+     },
+     {
+      "id": "t5",
+      "branchId": "b3",
+      "role": "user",
+      "text": "I meant Furano. Not Niseko.",
+      "at": 54800,
+      "kind": "correction"
+     },
+     {
+      "id": "t6",
+      "branchId": "b3",
+      "role": "assistant",
+      "text": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ryokan feel. You'd fly into Asahikawa or Sapporo, so a couple of nights in Sapporo for ramen could keep some food in the trip.",
+      "at": 56731
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "What if we did Hokkaido instead? A small ryokan near Niseko hot springs and 2 ski mornings.",
+        "at": 39168
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That's a very different trip, slower and more about snow and soaking than food and temples. Are all three of you on board, and do you ski?",
+        "at": 40629
+       },
+       {
+        "id": "t5",
+        "branchId": "b3",
+        "role": "user",
+        "text": "I meant Furano. Not Niseko.",
+        "at": 54800,
+        "kind": "correction"
+       },
+       {
+        "id": "t6",
+        "branchId": "b3",
+        "role": "assistant",
+        "text": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ryokan feel. You'd fly into Asahikawa or Sapporo, so a couple of nights in Sapporo for ramen could keep some food in the trip.",
+        "at": 56731
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Tokyo and Kyoto",
+       "status": "live",
+       "originName": null,
+       "lastLine": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural sp"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "correct"
+     },
+     "intent": "correction",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 57.383,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Furano."
+  },
+  {
+   "t": 57.775,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Niseko."
+  },
+  {
+   "t": 58.285,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "It is."
+  },
+  {
+   "t": 59.285,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "It's quieter and"
+  },
+  {
+   "t": 60.271,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "It's quieter and less crowded than"
+  },
+  {
+   "t": 60.946,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "It's quieter and less crowded than Niseko."
+  },
+  {
+   "t": 61.914,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "With great powder"
+  },
+  {
+   "t": 62.923,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "With great powder and a calmer rio"
+  },
+  {
+   "t": 63.921,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "With great powder and a calmer ryokan feel. You'd"
+  },
+  {
+   "t": 64.948,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "With great powder and a calmer ryokan feel. You'd fly into Asahi"
+  },
+  {
+   "t": 65.962,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "With great powder and a calmer ryokan feel. You'd fly into Asahikawa or Sapporo"
+  },
+  {
+   "t": 66.919,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "So a couple"
+  },
+  {
+   "t": 67.929,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "So a couple of nights in Sapporo"
+  },
+  {
+   "t": 68.926,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "So a couple of nights in Sapporo for ramen,"
+  },
+  {
+   "t": 69.919,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "so a couple of nights in Sapporo for ramen could keep some food in"
+  },
+  {
+   "t": 70.33,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 70.579,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "so a couple of nights in Sapporo for ramen could keep some food in the trip."
+  },
+  {
+   "t": 73.785,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 73.844,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the Tokyo"
+  },
+  {
+   "t": 73.898,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the Tokyo"
+  },
+  {
+   "t": 74.806,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Go back to the Tokyo and Kyoto plan."
+  },
+  {
+   "t": 74.983,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 76.001,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 76.006,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 19,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 75750,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the Tokyo and Kyoto plan.",
+      "at": 75750
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the Tokyo and Kyoto plan.",
+        "at": 75750
+       }
+      ]
+     },
+     "peek": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+     },
+     "others": [
+      {
+       "id": "b3",
+       "name": "Hokkaido ryokan",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "switch",
+      "targetId": "b1"
+     },
+     "intent": "switchBack",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 76.062,
+   "type": "playback",
+   "turn": 4,
+   "text": "Back to the Tokyo and Kyoto."
+  },
+  {
+   "t": 76.523,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Back"
+  },
+  {
+   "t": 76.553,
+   "type": "playback",
+   "turn": 4,
+   "text": "Back to the Tokyo and Kyoto. Sure."
+  },
+  {
+   "t": 76.953,
+   "type": "playback",
+   "turn": 4,
+   "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly."
+  },
+  {
+   "t": 77.504,
+   "type": "playback",
+   "turn": 4,
+   "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?"
+  },
+  {
+   "t": 77.564,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Back to the Tokyo and"
+  },
+  {
+   "t": 78.131,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Back to the Tokyo and Kyoto."
+  },
+  {
+   "t": 78.135,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 20,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 77448,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the Tokyo and Kyoto plan.",
+      "at": 75750
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+      "at": 77448
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the Tokyo and Kyoto plan.",
+        "at": 75750
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+        "at": 77448
+       }
+      ]
+     },
+     "peek": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+     },
+     "others": [
+      {
+       "id": "b3",
+       "name": "Hokkaido ryokan",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "switch",
+      "targetId": "b1"
+     },
+     "intent": "switchBack",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 78.825,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Sure."
+  },
+  {
+   "t": 79.847,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Sure. Next step is"
+  },
+  {
+   "t": 80.831,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Sure. Next step is booking Kyoto"
+  },
+  {
+   "t": 81.834,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Sure. Next step is booking Kyoto lodging 1st,"
+  },
+  {
+   "t": 82.84,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Sure. Next step is booking Kyoto lodging 1st,"
+  },
+  {
+   "t": 82.859,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "since Good Place is"
+  },
+  {
+   "t": 83.833,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "since good places for 3 people feel"
+  },
+  {
+   "t": 84.832,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "since good places for 3 people fell quickly. Montel"
+  },
+  {
+   "t": 85.841,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "since good places for 3 people fell quickly. Want to lock the split at"
+  },
+  {
+   "t": 86.518,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 86.518,
+   "type": "play",
+   "phase": "start",
+   "kind": "switch",
+   "revision": 20
+  },
+  {
+   "t": 86.735,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "since good places for 3 people fell quickly. Want to lock the split at 4 and 3?"
+  },
+  {
+   "t": 87.422,
+   "type": "play",
+   "phase": "end",
+   "kind": "switch",
+   "revision": 20
+  },
+  {
+   "t": 94.061,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 94.366,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. What's the main"
+  },
+  {
+   "t": 94.386,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. What's the main trick"
+  },
+  {
+   "t": 95.385,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. What's the main trade off between"
+  },
+  {
+   "t": 96.392,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. What's the main trade off between the city plan"
+  },
+  {
+   "t": 97.405,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. What's the main trade off between the city plan and the Furano plan?"
+  },
+  {
+   "t": 97.463,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Wait. What's the main trade off between the city plan"
+  },
+  {
+   "t": 97.514,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "and the Furano plan?"
+  },
+  {
+   "t": 97.618,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "and the Furano plan?"
+  },
+  {
+   "t": 97.963,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 99.151,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 99.155,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 21,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 98440,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the Tokyo and Kyoto plan.",
+      "at": 75750
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+      "at": 77448
+     },
+     {
+      "id": "t9",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Wait. What's the main trade off between the city plan and the Furano plan?",
+      "at": 98440
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the Tokyo and Kyoto plan.",
+        "at": 75750
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+        "at": 77448
+       },
+       {
+        "id": "t9",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Wait. What's the main trade off between the city plan and the Furano plan?",
+        "at": 98440
+       }
+      ]
+     },
+     "peek": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+     },
+     "others": [
+      {
+       "id": "b3",
+       "name": "Hokkaido ryokan",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "compare",
+      "otherId": "b3"
+     },
+     "intent": "compare",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 99.155,
+   "type": "play",
+   "phase": "start",
+   "kind": "compare",
+   "revision": 21
+  },
+  {
+   "t": 99.195,
+   "type": "playback",
+   "turn": 5,
+   "text": "Okay, let me see."
+  },
+  {
+   "t": 99.744,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Okay."
+  },
+  {
+   "t": 100.1,
+   "type": "playback",
+   "turn": 5,
+   "text": "Okay, let me see. The cities give you food and temples with variety. Furano gives you quiet, hot springs, and snow, but little else. Want to combine them?"
+  },
+  {
+   "t": 100.149,
+   "type": "playback",
+   "turn": 5,
+   "text": "Okay, let me see. The cities give you food and temples with variety. Furano gives you quiet, hot springs, and snow, but little else. Want to combine them?"
+  },
+  {
+   "t": 100.24,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 22,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the Tokyo and Kyoto plan.",
+      "at": 75750
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+      "at": 77448
+     },
+     {
+      "id": "t9",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Wait. What's the main trade off between the city plan and the Furano plan?",
+      "at": 98440
+     },
+     {
+      "id": "t10",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "The cities give you food and temples with variety; Furano gives you quiet, hot springs, and snow, but little else. Want to combine them?",
+      "at": 100035,
+      "kind": "compare"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the Tokyo and Kyoto plan.",
+        "at": 75750
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+        "at": 77448
+       },
+       {
+        "id": "t9",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Wait. What's the main trade off between the city plan and the Furano plan?",
+        "at": 98440
+       },
+       {
+        "id": "t10",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "The cities give you food and temples with variety; Furano gives you quiet, hot springs, and snow, but little else. Want to combine them?",
+        "at": 100035,
+        "kind": "compare"
+       }
+      ]
+     },
+     "peek": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+     },
+     "others": [
+      {
+       "id": "b3",
+       "name": "Hokkaido ryokan",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "compare",
+      "otherId": "b3"
+     },
+     "intent": "compare",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 100.743,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Okay. Let me see."
+  },
+  {
+   "t": 100.782,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Okay. Let me see."
+  },
+  {
+   "t": 100.919,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Okay. Let me see."
+  },
+  {
+   "t": 101.923,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "The cities give you"
+  },
+  {
+   "t": 102.158,
+   "type": "play",
+   "phase": "end",
+   "kind": "compare",
+   "revision": 21
+  },
+  {
+   "t": 102.959,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "The cities give you food and temples"
+  },
+  {
+   "t": 103.893,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "The cities give you food and temples with variety."
+  },
+  {
+   "t": 104.897,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Furano gives"
+  },
+  {
+   "t": 105.867,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Ferrado gives you quiet,"
+  },
+  {
+   "t": 106.877,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Ferrado gives you quiet, hot springs, and"
+  },
+  {
+   "t": 107.289,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Ferrado gives you quiet, hot springs and snow."
+  },
+  {
+   "t": 108.274,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "But little else."
+  },
+  {
+   "t": 109.178,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 109.272,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "But little else. Want to combine them?"
+  },
+  {
+   "t": 109.413,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "But little else. Want to combine them?"
+  },
+  {
+   "t": 112.68,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Okay."
+  },
+  {
+   "t": 112.699,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Okay."
+  },
+  {
+   "t": 113.707,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Let's combine them."
+  },
+  {
+   "t": 113.799,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Let's combine them."
+  },
+  {
+   "t": 113.803,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 25,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the Tokyo and Kyoto plan.",
+      "at": 75750
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+      "at": 77448
+     },
+     {
+      "id": "t9",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Wait. What's the main trade off between the city plan and the Furano plan?",
+      "at": 98440
+     },
+     {
+      "id": "t10",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "The cities give you food and temples with variety; Furano gives you quiet, hot springs, and snow, but little else. Want to combine them?",
+      "at": 100035,
+      "kind": "compare"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the Tokyo and Kyoto plan.",
+        "at": 75750
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to the Tokyo and Kyoto. Sure. Next step is booking Kyoto lodging first, since good places for three people fill quickly. Want to lock the split at four and three?",
+        "at": 77448
+       },
+       {
+        "id": "t9",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Wait. What's the main trade off between the city plan and the Furano plan?",
+        "at": 98440
+       },
+       {
+        "id": "t10",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "The cities give you food and temples with variety; Furano gives you quiet, hot springs, and snow, but little else. Want to combine them?",
+        "at": 100035,
+        "kind": "compare"
+       }
+      ]
+     },
+     "peek": {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+     },
+     "others": [
+      {
+       "id": "b3",
+       "name": "Hokkaido ryokan",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Furano it is. It's quieter and less crowded than Niseko, with great powder and a calmer ry"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "compare",
+      "otherId": "b3"
+     },
+     "intent": "compare",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 115.151,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 115.154,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 27,
+    "hold": false,
+    "currentBranchId": "b4",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b4",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Merged path",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b3"
+      ],
+      "createdAt": 114656,
+      "lastActiveAt": 114656,
+      "continueStreak": 0,
+      "mergeDigests": [
+       "Thread \"Tokyo and Kyoto\": Three travelers have seven nights in Japan and want Tokyo and Kyoto for food and temples. The assistant suggested four nights in Tokyo and three in Kyoto, the bullet train between them, and a possible Nara day trip. The user steered back to the core Tokyo-Kyoto plan without taking up Nara. The assistant then suggested booking Kyoto lodging first because places for three fill quickly. Still open: whether to lock the four-three split and whether to add Nara.",
+       "Thread \"Hokkaido ryokan\": Three travelers have seven nights in Japan. The user first proposed Tokyo and Kyoto for food and temples, then floated Hokkaido instead: a small ryokan near hot springs with two ski mornings, corrected from Niseko to Furano. The assistant suggested flying into Asahikawa or Sapporo, with a couple of Sapporo nights for ramen. Open: whether Hokkaido replaces Tokyo-Kyoto, whether all three agree and ski, and whether to add Sapporo."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t11",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Okay. Let's combine them.",
+      "at": 114656
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b4",
+      "name": "Merged path",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t11",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Okay. Let's combine them.",
+        "at": 114656
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "merge",
+      "otherId": "b3"
+     },
+     "intent": "merge",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 115.199,
+   "type": "playback",
+   "turn": 6,
+   "text": "Alright."
+  },
+  {
+   "t": 115.799,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 115.8,
+   "type": "play",
+   "phase": "start",
+   "kind": "merge",
+   "revision": 27
+  },
+  {
+   "t": 116.002,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Alright."
+  },
+  {
+   "t": 116.242,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 28,
+    "hold": false,
+    "currentBranchId": "b4",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b4",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Merged path",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b3"
+      ],
+      "createdAt": 114656,
+      "lastActiveAt": 116108,
+      "continueStreak": 0,
+      "mergeDigests": [
+       "Thread \"Tokyo and Kyoto\": Three travelers have seven nights in Japan and want Tokyo and Kyoto for food and temples. The assistant suggested four nights in Tokyo and three in Kyoto, the bullet train between them, and a possible Nara day trip. The user steered back to the core Tokyo-Kyoto plan without taking up Nara. The assistant then suggested booking Kyoto lodging first because places for three fill quickly. Still open: whether to lock the four-three split and whether to add Nara.",
+       "Thread \"Hokkaido ryokan\": Three travelers have seven nights in Japan. The user first proposed Tokyo and Kyoto for food and temples, then floated Hokkaido instead: a small ryokan near hot springs with two ski mornings, corrected from Niseko to Furano. The assistant suggested flying into Asahikawa or Sapporo, with a couple of Sapporo nights for ramen. Open: whether Hokkaido replaces Tokyo-Kyoto, whether all three agree and ski, and whether to add Sapporo."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t11",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Okay. Let's combine them.",
+      "at": 114656
+     },
+     {
+      "id": "t12",
+      "branchId": "b4",
+      "role": "assistant",
+      "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+      "at": 116108,
+      "kind": "merge-opening"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b4",
+      "name": "Merged path",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t11",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Okay. Let's combine them.",
+        "at": 114656
+       },
+       {
+        "id": "t12",
+        "branchId": "b4",
+        "role": "assistant",
+        "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+        "at": 116108,
+        "kind": "merge-opening"
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "merge",
+      "otherId": "b3"
+     },
+     "intent": "merge",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 116.301,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 116.368,
+   "type": "playback",
+   "turn": 7,
+   "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings."
+  },
+  {
+   "t": 116.704,
+   "type": "play",
+   "phase": "end",
+   "kind": "merge",
+   "revision": 27
+  },
+  {
+   "t": 117.004,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "2 nights"
+  },
+  {
+   "t": 117.242,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 29,
+    "hold": false,
+    "currentBranchId": "b4",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b4",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b3"
+      ],
+      "createdAt": 114656,
+      "lastActiveAt": 116108,
+      "continueStreak": 0,
+      "mergeDigests": [
+       "Thread \"Tokyo and Kyoto\": Three travelers have seven nights in Japan and want Tokyo and Kyoto for food and temples. The assistant suggested four nights in Tokyo and three in Kyoto, the bullet train between them, and a possible Nara day trip. The user steered back to the core Tokyo-Kyoto plan without taking up Nara. The assistant then suggested booking Kyoto lodging first because places for three fill quickly. Still open: whether to lock the four-three split and whether to add Nara.",
+       "Thread \"Hokkaido ryokan\": Three travelers have seven nights in Japan. The user first proposed Tokyo and Kyoto for food and temples, then floated Hokkaido instead: a small ryokan near hot springs with two ski mornings, corrected from Niseko to Furano. The assistant suggested flying into Asahikawa or Sapporo, with a couple of Sapporo nights for ramen. Open: whether Hokkaido replaces Tokyo-Kyoto, whether all three agree and ski, and whether to add Sapporo."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t11",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Okay. Let's combine them.",
+      "at": 114656
+     },
+     {
+      "id": "t12",
+      "branchId": "b4",
+      "role": "assistant",
+      "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+      "at": 116108,
+      "kind": "merge-opening"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b4",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t11",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Okay. Let's combine them.",
+        "at": 114656
+       },
+       {
+        "id": "t12",
+        "branchId": "b4",
+        "role": "assistant",
+        "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+        "at": 116108,
+        "kind": "merge-opening"
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "merge",
+      "otherId": "b3"
+     },
+     "intent": "merge",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 117.243,
+   "type": "play",
+   "phase": "start",
+   "kind": "refresh",
+   "revision": 29
+  },
+  {
+   "t": 117.243,
+   "type": "play",
+   "phase": "end",
+   "kind": "refresh",
+   "revision": 29
+  },
+  {
+   "t": 117.843,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "2 nights Tokyo,"
+  },
+  {
+   "t": 118.811,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "2 Kyoto,"
+  },
+  {
+   "t": 119.82,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "2 Kyoto, then fly to"
+  },
+  {
+   "t": 120.446,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "to Kyoto, then fly to Furano."
+  },
+  {
+   "t": 121.476,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "For 3 nights at"
+  },
+  {
+   "t": 122.458,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "For 3 nights at a ryokan with"
+  },
+  {
+   "t": 123.381,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 123.488,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "For 3 nights at a ryokan with 2 ski mornings."
+  },
+  {
+   "t": 123.638,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "For 3 nights at a ryokan with 2 ski mornings."
+  },
+  {
+   "t": 127.838,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. How do"
+  },
+  {
+   "t": 127.899,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Wait. How do"
+  },
+  {
+   "t": 127.922,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 128.651,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Wait. How do we fit"
+  },
+  {
+   "t": 129.628,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "both schema"
+  },
+  {
+   "t": 130.625,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "both ski mornings around"
+  },
+  {
+   "t": 131.532,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "both ski mornings around the travel day?"
+  },
+  {
+   "t": 131.903,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 133.242,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 30,
+    "hold": false,
+    "currentBranchId": "b4",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b4",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b3"
+      ],
+      "createdAt": 114656,
+      "lastActiveAt": 132485,
+      "continueStreak": 1,
+      "mergeDigests": [
+       "Thread \"Tokyo and Kyoto\": Three travelers have seven nights in Japan and want Tokyo and Kyoto for food and temples. The assistant suggested four nights in Tokyo and three in Kyoto, the bullet train between them, and a possible Nara day trip. The user steered back to the core Tokyo-Kyoto plan without taking up Nara. The assistant then suggested booking Kyoto lodging first because places for three fill quickly. Still open: whether to lock the four-three split and whether to add Nara.",
+       "Thread \"Hokkaido ryokan\": Three travelers have seven nights in Japan. The user first proposed Tokyo and Kyoto for food and temples, then floated Hokkaido instead: a small ryokan near hot springs with two ski mornings, corrected from Niseko to Furano. The assistant suggested flying into Asahikawa or Sapporo, with a couple of Sapporo nights for ramen. Open: whether Hokkaido replaces Tokyo-Kyoto, whether all three agree and ski, and whether to add Sapporo."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t11",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Okay. Let's combine them.",
+      "at": 114656
+     },
+     {
+      "id": "t12",
+      "branchId": "b4",
+      "role": "assistant",
+      "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+      "at": 116108,
+      "kind": "merge-opening"
+     },
+     {
+      "id": "t13",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Wait. How do we fit both ski mornings around the travel day?",
+      "at": 132485
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b4",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t11",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Okay. Let's combine them.",
+        "at": 114656
+       },
+       {
+        "id": "t12",
+        "branchId": "b4",
+        "role": "assistant",
+        "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+        "at": 116108,
+        "kind": "merge-opening"
+       },
+       {
+        "id": "t13",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Wait. How do we fit both ski mornings around the travel day?",
+        "at": 132485
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": "continue",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 133.563,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 133.567,
+   "type": "state",
+   "state": {
+    "sessionId": "launch-demo",
+    "epoch": 0,
+    "revision": 31,
+    "hold": false,
+    "currentBranchId": "b4",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Tokyo and Kyoto",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 0,
+      "lastActiveAt": 100035,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 39167,
+      "lastActiveAt": 54800,
+      "continueStreak": 0
+     },
+     {
+      "id": "b3",
+      "parentId": "b2",
+      "forkAfterTurnId": "t4",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "correction",
+      "createdAt": 54800,
+      "lastActiveAt": 56731,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b3"
+      ]
+     },
+     {
+      "id": "b4",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b3"
+      ],
+      "createdAt": 114656,
+      "lastActiveAt": 133417,
+      "continueStreak": 1,
+      "mergeDigests": [
+       "Thread \"Tokyo and Kyoto\": Three travelers have seven nights in Japan and want Tokyo and Kyoto for food and temples. The assistant suggested four nights in Tokyo and three in Kyoto, the bullet train between them, and a possible Nara day trip. The user steered back to the core Tokyo-Kyoto plan without taking up Nara. The assistant then suggested booking Kyoto lodging first because places for three fill quickly. Still open: whether to lock the four-three split and whether to add Nara.",
+       "Thread \"Hokkaido ryokan\": Three travelers have seven nights in Japan. The user first proposed Tokyo and Kyoto for food and temples, then floated Hokkaido instead: a small ryokan near hot springs with two ski mornings, corrected from Niseko to Furano. The assistant suggested flying into Asahikawa or Sapporo, with a couple of Sapporo nights for ramen. Open: whether Hokkaido replaces Tokyo-Kyoto, whether all three agree and ski, and whether to add Sapporo."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+      "at": 15339
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+      "at": 17222
+     },
+     {
+      "id": "t11",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Okay. Let's combine them.",
+      "at": 114656
+     },
+     {
+      "id": "t12",
+      "branchId": "b4",
+      "role": "assistant",
+      "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+      "at": 116108,
+      "kind": "merge-opening"
+     },
+     {
+      "id": "t13",
+      "branchId": "b4",
+      "role": "user",
+      "text": "Wait. How do we fit both ski mornings around the travel day?",
+      "at": 132485
+     },
+     {
+      "id": "t14",
+      "branchId": "b4",
+      "role": "assistant",
+      "text": "Fly to Hokkaido on day five and soak that evening. Ski mornings on days six and seven, fly out day eight.",
+      "at": 133417
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b4",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "So 3 of us have 7 nights in Japan this window. I'm thinking Tokyo and Kyoto for food and temples.",
+        "at": 15339
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "That pairing works well for seven nights. Four in Tokyo and three in Kyoto is a natural split, with the bullet train between them. Do you want to add a day trip like Nara?",
+        "at": 17222
+       },
+       {
+        "id": "t11",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Okay. Let's combine them.",
+        "at": 114656
+       },
+       {
+        "id": "t12",
+        "branchId": "b4",
+        "role": "assistant",
+        "text": "Two nights Tokyo, two Kyoto, then fly to Furano for three nights at a ryokan with two ski mornings.",
+        "at": 116108,
+        "kind": "merge-opening"
+       },
+       {
+        "id": "t13",
+        "branchId": "b4",
+        "role": "user",
+        "text": "Wait. How do we fit both ski mornings around the travel day?",
+        "at": 132485
+       },
+       {
+        "id": "t14",
+        "branchId": "b4",
+        "role": "assistant",
+        "text": "Fly to Hokkaido on day five and soak that evening. Ski mornings on days six and seven, fly out day eight.",
+        "at": 133417
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": "continue",
+     "by": "jev"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 133.622,
+   "type": "playback",
+   "turn": 8,
+   "text": "Fly to Hokkaido on day five and soak that evening. Ski mornings on days six and seven, fly out day eight."
+  },
+  {
+   "t": 133.673,
+   "type": "playback",
+   "turn": 8,
+   "text": "Fly to Hokkaido on day five and soak that evening. Ski mornings on days six and seven, fly out day eight."
+  },
+  {
+   "t": 134.652,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Apply to Hokkaido."
+  },
+  {
+   "t": 134.682,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Apply to Hokkaido."
+  },
+  {
+   "t": 135.687,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Applied to Hokkaido on day 5 and"
+  },
+  {
+   "t": 136.669,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Applied to Hokkaido on day 5 and Soka evening."
+  },
+  {
+   "t": 137.671,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Fly to Hokkaido on day 5 and Soka evening. Ski mornings on"
+  },
+  {
+   "t": 137.732,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Applied to Hokkaido on day 5 and Soka evening."
+  },
+  {
+   "t": 137.783,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Ski mornings on"
+  },
+  {
+   "t": 138.714,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Ski mornings on days 6 and"
+  },
+  {
+   "t": 139.254,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Ski mornings on days 6 and 7."
+  },
+  {
+   "t": 140.258,
+   "type": "transcript",
+   "role": "assistant",
+   "final": false,
+   "text": "Fly out day"
+  },
+  {
+   "t": 140.508,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Fly out date"
+  },
+  {
+   "t": 140.806,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 141.037,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "8."
+  },
+  {
+   "t": 144.297,
+   "type": "end"
+  },
+  {
+   "t": 151.163,
+   "type": "share",
+   "data": {
+    "nothing": false,
+    "summary": {
+     "covered": "They landed on combining both ideas into one seven-night trip for three: two nights in Tokyo, two in Kyoto, then three nights at a ryokan in Furano with two ski mornings. The user asked how the ski mornings fit around the travel day; the assistant laid out flying to Hokkaido on day five with a soak that evening, skiing days six and seven, and flying out day eight. The user has not confirmed that schedule.",
+     "branches": [
+      {
+       "id": "b1",
+       "line": "Tokyo and Kyoto for food and temples; assistant suggested a four-three split and booking Kyoto lodging first, not locked. Folded into the combined plan."
+      },
+      {
+       "id": "b3",
+       "line": "Hokkaido ryokan near hot springs in Furano (corrected from Niseko) with two ski mornings. Folded into the combined plan."
+      },
+      {
+       "id": "b4",
+       "line": "Two nights Tokyo, two nights Kyoto, then three nights at a Furano ryokan with two ski mornings. Assistant's proposed timing: fly to Hokkaido day five and soak, ski days six and seven, fly out day eight."
+      }
+     ],
+     "considerations": [
+      "Three travelers, seven nights.",
+      "Food and temples were the original priority for Tokyo and Kyoto.",
+      "The user wants both ski mornings to fit around the travel day.",
+      "Suggested: book Kyoto lodging early since places for three fill quickly."
+     ],
+     "open": [
+      "Whether the proposed day-by-day timing works for the user.",
+      "Whether all three travelers ski and agree to the Hokkaido leg.",
+      "Whether to fly into Asahikawa or Sapporo."
+     ]
+    },
+    "branches": [
+     {
+      "id": "b1",
+      "name": "Tokyo and Kyoto",
+      "status": "faded",
+      "origin": "root"
+     },
+     {
+      "id": "b2",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "fork"
+     },
+     {
+      "id": "b3",
+      "name": "Hokkaido ryokan",
+      "status": "faded",
+      "origin": "correction"
+     },
+     {
+      "id": "b4",
+      "name": "Tokyo + Hokkaido",
+      "status": "live",
+      "origin": "merge"
+     }
+    ],
+    "map": {
+     "nodes": [
+      {
+       "id": "b1",
+       "x": 140,
+       "y": 45,
+       "label": "Tokyo and Kyoto",
+       "status": "faded"
+      },
+      {
+       "id": "b2",
+       "x": 70,
+       "y": 135,
+       "label": "Hokkaido ryokan",
+       "status": "faded"
+      },
+      {
+       "id": "b3",
+       "x": 70,
+       "y": 225,
+       "label": "Hokkaido ryokan",
+       "status": "faded"
+      },
+      {
+       "id": "b4",
+       "x": 210,
+       "y": 135,
+       "label": "Tokyo + Hokkaido",
+       "status": "live"
+      }
+     ],
+     "edges": [
+      {
+       "from": "b1",
+       "to": "b2"
+      },
+      {
+       "from": "b2",
+       "to": "b3"
+      },
+      {
+       "from": "b1",
+       "to": "b4"
+      }
+     ],
+     "mergeEdges": [
+      {
+       "from": "b1",
+       "to": "b4"
+      },
+      {
+       "from": "b3",
+       "to": "b4"
+      }
+     ],
+     "width": 280,
+     "height": 270
+    },
+    "showMap": true,
+    "endedAt": 151156
+   }
+  }
+ ]
+}

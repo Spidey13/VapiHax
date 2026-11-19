@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Branch Voice (debug)</title>
+  <link rel="stylesheet" href="debug.css">
+</head>
+<body>
+  <main>
+    <h1>Branch Voice <small>debug client</small></h1>
+
+    <section id="start">
+      <button id="btn-start">Start session</button>
+    </section>
+
+    <div id="app" hidden>
+      <div class="cols">
+        <section class="col">
+          <h2>Transcript <small id="current-name"></small></h2>
+          <div id="path" class="card" aria-live="polite"></div>
+          <form id="turn-form">
+            <input id="turn-input" autocomplete="off" placeholder="Say something" aria-label="Message">
+            <button type="submit">Send</button>
+          </form>
+          <p id="error" class="error" role="alert"></p>
+        </section>
+
+        <section class="col">
+          <h2>Branches</h2>
+          <ul id="branches" class="branches"></ul>
+          <h2>Last decision</h2>
+          <div id="decision" class="card muted">No turn yet.</div>
+        </section>
+      </div>
+
+      <section id="voice">
+        <h2>Voice</h2>
+        <p class="sub">Uses your microphone (the browser will ask).</p>
+        <div class="row">
+          <button id="btn-voice">Start voice</button>
+          <label><input type="checkbox" id="chk-tts"> Speak text replies</label>
+        </div>
+        <p id="voice-status" class="sub"></p>
+        <div id="captions" class="card muted" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <h2>Trace</h2>
+        <pre id="trace">no trace yet</pre>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="debug.js"></script>
+</body>
+</html>

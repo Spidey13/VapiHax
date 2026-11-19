@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fork beat storyboard</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..600&display=swap">
+<style>
+  /* Storyboard of the fork beat. Each frame is a 1920x1080 film frame scaled down.
+     The app layers below copy public/style.css values (viewport units converted to px at 1920x1080). */
+  .board { display: grid; gap: 22px; font-family: var(--font-sans, system-ui); }
+  .note { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted-foreground, #666); }
+  .shot { margin: 0; display: grid; gap: 8px; }
+  .shot figcaption { display: grid; grid-template-columns: 74px 1fr; gap: 2px 12px; font-size: 13px; line-height: 1.45; }
+  .shot figcaption b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .shot figcaption span { color: var(--muted-foreground, #666); }
+  .screen { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 10px; container-type: inline-size; }
+  .vp { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; transform: scale(calc(100cqw / 1920px)); overflow: hidden;
+    background: #F1F2F6; color: #1B1F2B; font: 400 16px/1.45 "Instrument Sans", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  @supports not (transform: scale(calc(100cqw / 1920px))) { .vp { transform: scale(.3708); } }
+
+  /* the camera: the app page sits inside it */
+  .cam { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  /* glass extended beyond the window so a camera move never shows an edge (same geometry inside the window) */
+  .field { position: absolute; left: -1920px; top: -1080px; width: 5760px; height: 3240px; overflow: hidden; }
+  .amb { position: absolute; left: calc(1920px - 154px); top: calc(1080px - 151px); width: 768px; height: 454px; border-radius: 50%; filter: blur(90px); }
+  .glow { position: absolute; left: calc(1920px + 480px); top: calc(1080px + 767px); width: 960px; height: 389px; opacity: .78; filter: blur(70px); }
+  .core { position: absolute; inset: 0; border-radius: 50%; }
+  .frost { position: absolute; left: -1920px; top: -1080px; width: 5760px; height: 3240px; background: rgba(255,255,255,.24); backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px); }
+
+  /* transcript (.stage: 14 and 44 percent of the window height, width 640) */
+  .stage { position: absolute; left: 640px; width: 640px; top: 151px; height: 454px; display: flex; flex-direction: column; justify-content: flex-end; text-align: center; }
+  .stage p { margin: 0; text-wrap: balance; }
+  .u { margin-bottom: 14px !important; font-size: 30px; line-height: 1.32; font-weight: 500; color: #1B1F2B; }
+  .a { margin-bottom: 26px !important; font-size: 20px; line-height: 1.55; color: #4A5268; }
+  .old { margin-bottom: 12px !important; font-size: 16px; line-height: 1.5; font-weight: 400; color: #9AA1B2; }
+  .older { opacity: .32; }
+  .live::after { content: ""; display: inline-block; width: 2px; height: .9em; margin-left: 3px; vertical-align: -.1em; background: color-mix(in srgb, hsl(158 60% 64%) 55%, #1B1F2B); }
+  .hint { position: absolute; left: 0; right: 0; bottom: 62px; text-align: center; font-size: 14px; color: #5C6479; }
+
+  /* branch map (.branchmap top 34 left 36; rows 26px; 13.5px) */
+  .bm { position: absolute; left: 36px; top: 34px; }
+  .bm ol { margin: 0; padding: 0; list-style: none; font-size: 13.5px; line-height: 1; }
+  .bm li { position: relative; height: 26px; display: flex; align-items: center; gap: 9px; color: #5C6479; padding-left: calc(var(--d) * 18px); }
+  .bm li.cur { color: #1B1F2B; font-weight: 500; }
+  .bm li .dot { width: 7px; height: 7px; border-radius: 50%; background: hsl(var(--h)); flex: none; }
+  .bm li.cur .dot { box-shadow: 0 0 0 4px hsl(var(--h) / .3); }
+  .bm li.child::before { content: ""; position: absolute; left: 3px; top: calc(13px - 26px); width: 12px; height: 26px; border-left: 1px solid rgba(92,100,121,.25); border-bottom: 1px solid rgba(92,100,121,.25); border-bottom-left-radius: 6px; }
+  .bm li.growing { opacity: .55; translate: -4px 0; }
+  .bm li.growing::before { clip-path: inset(0 0 45% 0); }
+
+  /* film overlays (outside the camera, in frame pixels) */
+  .card { position: absolute; left: 1010px; top: 352px; width: 760px; }
+  .card h3 { margin: 0 0 18px; font: 500 76px/1.04 "Instrument Sans", sans-serif; letter-spacing: -.025em; color: #1B1F2B; }
+  .card p { margin: 0; font-size: 34px; line-height: 1.35; color: #4A5268; }
+  .card .rule { width: 56px; height: 4px; border-radius: 2px; margin-bottom: 30px; }
+  .sub { position: absolute; left: 0; right: 0; bottom: 92px; text-align: center; font-size: 34px; line-height: 1.3; color: #4A5268; }
+  .sub em { font-style: normal; color: #1B1F2B; font-weight: 500; }
+  .tag { position: absolute; left: 64px; bottom: 56px; font-size: 20px; color: #5C6479; letter-spacing: .01em; }
+
+  /* the beat's timeline strip */
+  .strip { display: grid; gap: 6px; }
+  .lane { position: relative; height: 22px; border-radius: 6px; background: var(--secondary, #eee); overflow: hidden; }
+  .seg { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; padding: 0 6px; font-size: 11px; white-space: nowrap; overflow: hidden; color: #1B1F2B; }
+  .seg.user { background: hsl(158 60% 64% / .55); }
+  .seg.gap { background: repeating-linear-gradient(135deg, transparent 0 4px, rgba(0,0,0,.08) 4px 8px); color: var(--muted-foreground, #555); }
+  .seg.asst { background: hsl(226 88% 72% / .5); }
+  .seg.cam { background: rgba(27,31,43,.12); }
+  .seg.card { background: rgba(27,31,43,.24); }
+  .lbl { font-size: 11px; color: var(--muted-foreground, #666); display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+<div class="board">
+  <p class="note">Fork beat, 16:9. Stand-in words and names from docs/demo-script.md; the film swaps in the recorded session. Every app layer uses the app's own CSS values.</p>
+
+  <div class="strip" aria-label="Beat timing">
+    <div class="lane" title="audio">
+      <div class="seg user" style="left:0;width:44%">You: "…a backyard barbecue instead?"</div>
+      <div class="seg gap" style="left:44%;width:12%">real wait</div>
+      <div class="seg asst" style="left:56%;width:40%">Reply</div>
+    </div>
+    <div class="lane" title="picture">
+      <div class="seg" style="left:0;width:44%">Close on the words</div>
+      <div class="seg cam" style="left:44%;width:7%">glide</div>
+      <div class="seg card" style="left:51%;width:31%">On the map + text block</div>
+      <div class="seg cam" style="left:82%;width:8%">back</div>
+      <div class="seg" style="left:90%;width:10%">Words</div>
+    </div>
+    <div class="lbl"><span>0 s</span><span>about 9 s</span></div>
+  </div>
+
+  <!-- 1: medium shot on the transcript, user speaking -->
+  <figure class="shot">
+    <div class="screen"><div class="vp">
+      <div class="cam" style="transform: translate(-432px, -300px) scale(1.45)">
+        <div class="field"><i class="amb" style="background:hsl(158 60% 64% / .35)"></i><i class="glow"><i class="core" style="background:hsl(158 60% 64%)"></i></i></div>
+        <div class="frost"></div>
+        <div class="stage">
+          <p class="old older">I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.</p>
+          <p class="old">Twenty is a good size for a private room. Do you have a place in mind yet?</p>
+          <p class="u live">Actually, what if we skipped the restaurant and did a backyard barbecue</p>
+        </div>
+        <nav class="bm"><ol><li class="cur" style="--h:158 60% 64%;--d:0"><i class="dot"></i>Dad's sixtieth dinner</li></ol></nav>
+        <p class="hint">Hold space to keep talking</p>
+      </div>
+    </div></div>
+    <figcaption><b>0:00</b><span>The resting shot: the camera sits close on the transcript (1.45x, so your line is about 44 px tall). Your words write onto the glass as you speak, exactly as in the app, and the mint glow quickens with your voice.</span></figcaption>
+  </figure>
+
+  <!-- 2: camera arriving, new row growing -->
+  <figure class="shot">
+    <div class="screen"><div class="vp">
+      <div class="cam" style="transform: translate(190px, 250px) scale(3)">
+        <div class="field"><i class="amb" style="background:hsl(196 72% 68% / .35)"></i><i class="glow"><i class="core" style="background:hsl(196 72% 68%)"></i></i></div>
+        <div class="frost"></div>
+        <div class="stage">
+          <p class="old">Twenty is a good size for a private room. Do you have a place in mind yet?</p>
+          <p class="u">Actually, what if we skipped the restaurant and did a backyard barbecue instead?</p>
+        </div>
+        <nav class="bm"><ol>
+          <li style="--h:158 60% 64%;--d:0"><i class="dot"></i>Dad's sixtieth dinner</li>
+          <li class="cur child growing" style="--h:226 88% 72%;--d:1"><i class="dot"></i>Backyard barbecue</li>
+        </ol></nav>
+      </div>
+    </div></div>
+    <figcaption><b>0:04.1</b><span>The fork lands. The camera glides to the branch map (0.6 s, eased both ways) and arrives just before the app plays its own animation: the new row grows in, its stem draws, and the wash turns from mint to periwinkle.</span></figcaption>
+  </figure>
+
+  <!-- 3: held on map with text block -->
+  <figure class="shot">
+    <div class="screen"><div class="vp">
+      <div class="cam" style="transform: translate(190px, 250px) scale(3)">
+        <div class="field"><i class="amb" style="background:hsl(226 88% 72% / .35)"></i><i class="glow"><i class="core" style="background:hsl(226 88% 72%)"></i></i></div>
+        <div class="frost"></div>
+        <nav class="bm"><ol>
+          <li style="--h:158 60% 64%;--d:0"><i class="dot"></i>Dad's sixtieth dinner</li>
+          <li class="cur child" style="--h:226 88% 72%;--d:1"><i class="dot"></i>Backyard barbecue</li>
+        </ol></nav>
+      </div>
+      <div class="card">
+        <div class="rule" style="background:hsl(226 88% 72%)"></div>
+        <h3>Forked.</h3>
+        <p>The dinner plan is still there.</p>
+      </div>
+      <p class="sub"><em>Reply:</em> A barbecue feels more like him. Who's on the grill?</p>
+    </div></div>
+    <figcaption><b>0:05.0</b><span>Held on the map. The text block names the change and adds one comment. While the transcript is out of frame, the spoken words run as a subtitle at the bottom.</span></figcaption>
+  </figure>
+
+  <!-- 4: back to the transcript -->
+  <figure class="shot">
+    <div class="screen"><div class="vp">
+      <div class="cam" style="transform: translate(-432px, -300px) scale(1.45)">
+        <div class="field"><i class="amb" style="background:hsl(226 88% 72% / .35)"></i><i class="glow"><i class="core" style="background:hsl(226 88% 72%)"></i></i></div>
+        <div class="frost"></div>
+        <div class="stage">
+          <p class="old older">Twenty is a good size for a private room. Do you have a place in mind yet?</p>
+          <p class="u">Actually, what if we skipped the restaurant and did a backyard barbecue instead?</p>
+          <p class="a">A barbecue feels more like him. Who's on the grill, and is there a rain plan?</p>
+        </div>
+        <nav class="bm"><ol>
+          <li style="--h:158 60% 64%;--d:0"><i class="dot"></i>Dad's sixtieth dinner</li>
+          <li class="cur child" style="--h:226 88% 72%;--d:1"><i class="dot"></i>Backyard barbecue</li>
+        </ol></nav>
+        <p class="hint">Hold space to keep talking</p>
+      </div>
+    </div></div>
+    <figcaption><b>0:08.0</b><span>The camera returns to the transcript as the reply plays. Same glass, now periwinkle; the reply sits under your words, and the next beat starts from here.</span></figcaption>
+  </figure>
+</div>
+</body>
+</html>

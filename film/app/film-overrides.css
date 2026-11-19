@@ -1,0 +1,15 @@
+/* Film-only. Loaded after the app's style.css.
+   1. The glass (#field, #frost) extends one window beyond each edge, with the same geometry inside the window,
+      so a camera move never shows its edge. Inside the window nothing changes: every child keeps its position
+      and size in window units (percent of a 3x field = one third of the window percent, offset by one window).
+   2. Instrument Sans comes from a local file (film/public/fonts, loaded in src/fonts.ts), not Google Fonts. */
+#field, #frost { position: absolute; inset: -100%; }
+#field .amb { left: calc(100% / 3 - 8% / 3); top: calc(100% / 3 - 14% / 3); width: calc(40% / 3); height: calc(42% / 3); }
+#field .glow { left: 50%; bottom: calc(100% / 3 - 7% / 3); width: calc(50% / 3); height: calc(36% / 3); }
+/* 3. The frost's backdrop blur, drawn into the glow instead. Chrome tiles a backdrop-filter this large when the
+      camera scales it, which leaves rings in the render. Over a uniform ground, blurring the shapes behind a
+      uniform frost is the same picture: two Gaussian blurs add in quadrature (sqrt(70² + 40²) ≈ 80.6,
+      sqrt(90² + 40²) ≈ 98.5). The frost keeps its white tint and grain. */
+#frost { -webkit-backdrop-filter: none; backdrop-filter: none; }
+#field .glow { filter: blur(80.6px) saturate(var(--sat, 1)) brightness(var(--bright, 1)); }
+#field .amb { filter: blur(98.5px); }

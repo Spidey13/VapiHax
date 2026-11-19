@@ -1,0 +1,33 @@
+/* The light's styles. Nothing here animates or transitions: every value is set from time in lights.js. */
+
+/* ---- soft lights in the app's glow colours, above the frost, in app px (inside #lights) ---- */
+#lights .lt { position: absolute; translate: -50% -50%; border-radius: 50%; pointer-events: none; animation: none; transition: none; }
+#lights .lt-bloom { background: radial-gradient(closest-side, hsl(var(--h) / .95), hsl(var(--h) / .45) 45%, hsl(var(--h) / 0)); filter: blur(6px); }
+#lights .lt-trail { background: radial-gradient(closest-side, hsl(var(--h) / .8), hsl(var(--h) / 0)); filter: blur(10px); }
+/* the partial words, lifting toward the map as a faint copy */
+#lights .lt-lift { margin: 0; border-radius: 0; white-space: nowrap; color: hsl(226 50% 52%); font: 500 15px/1.3 var(--sans, "Instrument Sans", system-ui, sans-serif); }
+
+/* ---- two film-only lobes in the app's glass (under the frost). Geometry is in percent of the 960 x 1080
+   window, on the 3x field the film uses (see film-overrides.css). Opacity, position and colour are set per frame
+   by lights.js through the --la-* / --lb-* variables; --split is the extra opacity of lobe b for the fix flicker. ---- */
+#field.lt-field::before, #field.lt-field::after { content: ""; position: absolute; border-radius: 50%; filter: blur(80px); animation: none; transition: none; }
+#field.lt-field::before {
+  left: calc(100% / 3 + var(--la-x, 40) * 1% / 3); bottom: calc(100% / 3 + var(--la-y, 0) * 1% / 3);
+  width: calc(var(--la-w, 20) * 1% / 3); height: calc(var(--la-h, 20) * 1% / 3);
+  background: hsl(var(--la-c, 158 60% 64%)); opacity: var(--la-o, 0);
+}
+#field.lt-field::after {
+  left: calc(100% / 3 + var(--lb-x, 40) * 1% / 3); bottom: calc(100% / 3 + var(--lb-y, 0) * 1% / 3);
+  width: calc(var(--lb-w, 20) * 1% / 3); height: calc(var(--lb-h, 20) * 1% / 3);
+  background: hsl(var(--lb-c, 226 88% 72%)); opacity: max(var(--split, 0), var(--lb-o, 0));
+}
+
+/* ---- the end: the name card in screen space (#frame, 1920 x 1080); the light lands as the dot ---- */
+.lt-card { position: absolute; inset: 0; z-index: 10; display: grid; place-content: center; justify-items: center; gap: 18px; text-align: center; pointer-events: none; }
+.lt-endlight[hidden], .lt-endhalo[hidden] { display: none; }
+.lt-card h1 { display: flex; align-items: center; gap: 26px; margin: 0; font: 500 112px/1 var(--sans, "Instrument Sans", system-ui, sans-serif); letter-spacing: -.035em; color: var(--ink, #1B1F2B); }
+.lt-card .lt-slot { flex: none; width: 26px; height: 26px; }
+.lt-card .lt-sub { margin: 0; font: 400 34px/1.3 var(--sans, "Instrument Sans", system-ui, sans-serif); color: var(--ink-2, #4A5268); }
+.lt-card .lt-tag { margin: 26px 0 0; font: 400 21px/1.3 "JetBrains Mono", ui-monospace, monospace; color: var(--ink-3, #5C6479); }
+.lt-endlight { position: absolute; z-index: 11; translate: -50% -50%; border-radius: 50%; pointer-events: none; animation: none; transition: none; }
+.lt-endhalo { position: absolute; z-index: 10; translate: -50% -50%; border-radius: 50%; pointer-events: none; animation: none; transition: none; filter: blur(4px); }

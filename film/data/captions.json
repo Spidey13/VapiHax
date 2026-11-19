@@ -1,0 +1,1255 @@
+[
+ {
+  "text": " Hi.",
+  "startMs": 800,
+  "endMs": 1155,
+  "timestampMs": 978,
+  "confidence": null
+ },
+ {
+  "text": " What",
+  "startMs": 1185,
+  "endMs": 1539,
+  "timestampMs": 1362,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 1569,
+  "endMs": 1924,
+  "timestampMs": 1747,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 1954,
+  "endMs": 2308,
+  "timestampMs": 2131,
+  "confidence": null
+ },
+ {
+  "text": " thinking",
+  "startMs": 2338,
+  "endMs": 2693,
+  "timestampMs": 2516,
+  "confidence": null
+ },
+ {
+  "text": " about?",
+  "startMs": 2723,
+  "endMs": 3078,
+  "timestampMs": 2901,
+  "confidence": null
+ },
+ {
+  "text": " I'm",
+  "startMs": 5308,
+  "endMs": 5662,
+  "timestampMs": 5485,
+  "confidence": null
+ },
+ {
+  "text": " planning",
+  "startMs": 5692,
+  "endMs": 6047,
+  "timestampMs": 5870,
+  "confidence": null
+ },
+ {
+  "text": " my",
+  "startMs": 6077,
+  "endMs": 6432,
+  "timestampMs": 6255,
+  "confidence": null
+ },
+ {
+  "text": " dad's",
+  "startMs": 6462,
+  "endMs": 6816,
+  "timestampMs": 6639,
+  "confidence": null
+ },
+ {
+  "text": " sixtieth",
+  "startMs": 6846,
+  "endMs": 7201,
+  "timestampMs": 7024,
+  "confidence": null
+ },
+ {
+  "text": " birthday,",
+  "startMs": 7231,
+  "endMs": 7585,
+  "timestampMs": 7408,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 7615,
+  "endMs": 7970,
+  "timestampMs": 7793,
+  "confidence": null
+ },
+ {
+  "text": " twenty",
+  "startMs": 8000,
+  "endMs": 8355,
+  "timestampMs": 8178,
+  "confidence": null
+ },
+ {
+  "text": " people,",
+  "startMs": 8385,
+  "endMs": 8739,
+  "timestampMs": 8562,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 8769,
+  "endMs": 9124,
+  "timestampMs": 8947,
+  "confidence": null
+ },
+ {
+  "text": " I'm",
+  "startMs": 9154,
+  "endMs": 9508,
+  "timestampMs": 9331,
+  "confidence": null
+ },
+ {
+  "text": " thinking",
+  "startMs": 9538,
+  "endMs": 9893,
+  "timestampMs": 9716,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9923,
+  "endMs": 10278,
+  "timestampMs": 10101,
+  "confidence": null
+ },
+ {
+  "text": " nice",
+  "startMs": 10308,
+  "endMs": 10662,
+  "timestampMs": 10485,
+  "confidence": null
+ },
+ {
+  "text": " restaurant",
+  "startMs": 10692,
+  "endMs": 11047,
+  "timestampMs": 10870,
+  "confidence": null
+ },
+ {
+  "text": " dinner.",
+  "startMs": 11077,
+  "endMs": 11432,
+  "timestampMs": 11255,
+  "confidence": null
+ },
+ {
+  "text": " Twenty",
+  "startMs": 12862,
+  "endMs": 13216,
+  "timestampMs": 13039,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 13246,
+  "endMs": 13601,
+  "timestampMs": 13424,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 13631,
+  "endMs": 13985,
+  "timestampMs": 13808,
+  "confidence": null
+ },
+ {
+  "text": " good",
+  "startMs": 14015,
+  "endMs": 14370,
+  "timestampMs": 14192,
+  "confidence": null
+ },
+ {
+  "text": " size",
+  "startMs": 14400,
+  "endMs": 14755,
+  "timestampMs": 14578,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 14785,
+  "endMs": 15139,
+  "timestampMs": 14962,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 15169,
+  "endMs": 15524,
+  "timestampMs": 15346,
+  "confidence": null
+ },
+ {
+  "text": " private",
+  "startMs": 15554,
+  "endMs": 15908,
+  "timestampMs": 15731,
+  "confidence": null
+ },
+ {
+  "text": " room.",
+  "startMs": 15938,
+  "endMs": 16293,
+  "timestampMs": 16116,
+  "confidence": null
+ },
+ {
+  "text": " Do",
+  "startMs": 16323,
+  "endMs": 16678,
+  "timestampMs": 16501,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 16708,
+  "endMs": 17062,
+  "timestampMs": 16885,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 17092,
+  "endMs": 17447,
+  "timestampMs": 17270,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 17477,
+  "endMs": 17832,
+  "timestampMs": 17655,
+  "confidence": null
+ },
+ {
+  "text": " place",
+  "startMs": 17862,
+  "endMs": 18216,
+  "timestampMs": 18039,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 18246,
+  "endMs": 18601,
+  "timestampMs": 18423,
+  "confidence": null
+ },
+ {
+  "text": " mind",
+  "startMs": 18631,
+  "endMs": 18985,
+  "timestampMs": 18808,
+  "confidence": null
+ },
+ {
+  "text": " yet?",
+  "startMs": 19015,
+  "endMs": 19370,
+  "timestampMs": 19193,
+  "confidence": null
+ },
+ {
+  "text": " Actually,",
+  "startMs": 21000,
+  "endMs": 21355,
+  "timestampMs": 21178,
+  "confidence": null
+ },
+ {
+  "text": " what",
+  "startMs": 21385,
+  "endMs": 21739,
+  "timestampMs": 21562,
+  "confidence": null
+ },
+ {
+  "text": " if",
+  "startMs": 21769,
+  "endMs": 22124,
+  "timestampMs": 21947,
+  "confidence": null
+ },
+ {
+  "text": " we",
+  "startMs": 22154,
+  "endMs": 22508,
+  "timestampMs": 22331,
+  "confidence": null
+ },
+ {
+  "text": " skipped",
+  "startMs": 22538,
+  "endMs": 22893,
+  "timestampMs": 22716,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 22923,
+  "endMs": 23278,
+  "timestampMs": 23100,
+  "confidence": null
+ },
+ {
+  "text": " restaurant",
+  "startMs": 23308,
+  "endMs": 23662,
+  "timestampMs": 23485,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 23692,
+  "endMs": 24047,
+  "timestampMs": 23870,
+  "confidence": null
+ },
+ {
+  "text": " did",
+  "startMs": 24077,
+  "endMs": 24432,
+  "timestampMs": 24255,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 24462,
+  "endMs": 24816,
+  "timestampMs": 24639,
+  "confidence": null
+ },
+ {
+  "text": " backyard",
+  "startMs": 24846,
+  "endMs": 25201,
+  "timestampMs": 25024,
+  "confidence": null
+ },
+ {
+  "text": " barbecue",
+  "startMs": 25231,
+  "endMs": 25585,
+  "timestampMs": 25408,
+  "confidence": null
+ },
+ {
+  "text": " instead?",
+  "startMs": 25615,
+  "endMs": 25970,
+  "timestampMs": 25792,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 27400,
+  "endMs": 27755,
+  "timestampMs": 27578,
+  "confidence": null
+ },
+ {
+  "text": " barbecue",
+  "startMs": 27785,
+  "endMs": 28139,
+  "timestampMs": 27962,
+  "confidence": null
+ },
+ {
+  "text": " feels",
+  "startMs": 28169,
+  "endMs": 28524,
+  "timestampMs": 28347,
+  "confidence": null
+ },
+ {
+  "text": " more",
+  "startMs": 28554,
+  "endMs": 28908,
+  "timestampMs": 28731,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 28938,
+  "endMs": 29293,
+  "timestampMs": 29115,
+  "confidence": null
+ },
+ {
+  "text": " him.",
+  "startMs": 29323,
+  "endMs": 29678,
+  "timestampMs": 29501,
+  "confidence": null
+ },
+ {
+  "text": " Who's",
+  "startMs": 29708,
+  "endMs": 30062,
+  "timestampMs": 29885,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 30092,
+  "endMs": 30447,
+  "timestampMs": 30270,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 30477,
+  "endMs": 30832,
+  "timestampMs": 30655,
+  "confidence": null
+ },
+ {
+  "text": " grill,",
+  "startMs": 30862,
+  "endMs": 31216,
+  "timestampMs": 31039,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 31246,
+  "endMs": 31601,
+  "timestampMs": 31423,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 31631,
+  "endMs": 31985,
+  "timestampMs": 31808,
+  "confidence": null
+ },
+ {
+  "text": " there",
+  "startMs": 32015,
+  "endMs": 32370,
+  "timestampMs": 32192,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 32400,
+  "endMs": 32755,
+  "timestampMs": 32578,
+  "confidence": null
+ },
+ {
+  "text": " rain",
+  "startMs": 32785,
+  "endMs": 33139,
+  "timestampMs": 32962,
+  "confidence": null
+ },
+ {
+  "text": " plan?",
+  "startMs": 33169,
+  "endMs": 33524,
+  "timestampMs": 33347,
+  "confidence": null
+ },
+ {
+  "text": " Saturday",
+  "startMs": 35154,
+  "endMs": 35508,
+  "timestampMs": 35331,
+  "confidence": null
+ },
+ {
+  "text": " afternoon,",
+  "startMs": 35538,
+  "endMs": 35893,
+  "timestampMs": 35716,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 35923,
+  "endMs": 36278,
+  "timestampMs": 36101,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 36308,
+  "endMs": 36662,
+  "timestampMs": 36485,
+  "confidence": null
+ },
+ {
+  "text": " big",
+  "startMs": 36692,
+  "endMs": 37047,
+  "timestampMs": 36870,
+  "confidence": null
+ },
+ {
+  "text": " grill",
+  "startMs": 37077,
+  "endMs": 37432,
+  "timestampMs": 37255,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 37462,
+  "endMs": 37816,
+  "timestampMs": 37639,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 37846,
+  "endMs": 38201,
+  "timestampMs": 38024,
+  "confidence": null
+ },
+ {
+  "text": " few",
+  "startMs": 38231,
+  "endMs": 38585,
+  "timestampMs": 38408,
+  "confidence": null
+ },
+ {
+  "text": " long",
+  "startMs": 38615,
+  "endMs": 38970,
+  "timestampMs": 38793,
+  "confidence": null
+ },
+ {
+  "text": " tables",
+  "startMs": 39000,
+  "endMs": 39355,
+  "timestampMs": 39177,
+  "confidence": null
+ },
+ {
+  "text": " under",
+  "startMs": 39385,
+  "endMs": 39739,
+  "timestampMs": 39562,
+  "confidence": null
+ },
+ {
+  "text": " string",
+  "startMs": 39769,
+  "endMs": 40124,
+  "timestampMs": 39947,
+  "confidence": null
+ },
+ {
+  "text": " lights.",
+  "startMs": 40154,
+  "endMs": 40508,
+  "timestampMs": 40331,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 41938,
+  "endMs": 42293,
+  "timestampMs": 42116,
+  "confidence": null
+ },
+ {
+  "text": " sounds",
+  "startMs": 42323,
+  "endMs": 42678,
+  "timestampMs": 42501,
+  "confidence": null
+ },
+ {
+  "text": " easy",
+  "startMs": 42708,
+  "endMs": 43062,
+  "timestampMs": 42885,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 43092,
+  "endMs": 43447,
+  "timestampMs": 43270,
+  "confidence": null
+ },
+ {
+  "text": " love.",
+  "startMs": 43477,
+  "endMs": 43832,
+  "timestampMs": 43655,
+  "confidence": null
+ },
+ {
+  "text": " Who",
+  "startMs": 43862,
+  "endMs": 44216,
+  "timestampMs": 44039,
+  "confidence": null
+ },
+ {
+  "text": " takes",
+  "startMs": 44246,
+  "endMs": 44601,
+  "timestampMs": 44424,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 44631,
+  "endMs": 44985,
+  "timestampMs": 44808,
+  "confidence": null
+ },
+ {
+  "text": " grill,",
+  "startMs": 45015,
+  "endMs": 45370,
+  "timestampMs": 45192,
+  "confidence": null
+ },
+ {
+  "text": " so",
+  "startMs": 45400,
+  "endMs": 45755,
+  "timestampMs": 45578,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 45785,
+  "endMs": 46139,
+  "timestampMs": 45962,
+  "confidence": null
+ },
+ {
+  "text": " get",
+  "startMs": 46169,
+  "endMs": 46524,
+  "timestampMs": 46347,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 46554,
+  "endMs": 46908,
+  "timestampMs": 46731,
+  "confidence": null
+ },
+ {
+  "text": " sit",
+  "startMs": 46938,
+  "endMs": 47293,
+  "timestampMs": 47116,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 47323,
+  "endMs": 47678,
+  "timestampMs": 47501,
+  "confidence": null
+ },
+ {
+  "text": " him?",
+  "startMs": 47708,
+  "endMs": 48062,
+  "timestampMs": 47885,
+  "confidence": null
+ },
+ {
+  "text": " Go",
+  "startMs": 49692,
+  "endMs": 50047,
+  "timestampMs": 49870,
+  "confidence": null
+ },
+ {
+  "text": " back",
+  "startMs": 50077,
+  "endMs": 50432,
+  "timestampMs": 50255,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 50462,
+  "endMs": 50816,
+  "timestampMs": 50639,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 50846,
+  "endMs": 51201,
+  "timestampMs": 51024,
+  "confidence": null
+ },
+ {
+  "text": " fancy",
+  "startMs": 51231,
+  "endMs": 51585,
+  "timestampMs": 51408,
+  "confidence": null
+ },
+ {
+  "text": " one,",
+  "startMs": 51615,
+  "endMs": 51970,
+  "timestampMs": 51793,
+  "confidence": null
+ },
+ {
+  "text": " where",
+  "startMs": 52000,
+  "endMs": 52355,
+  "timestampMs": 52177,
+  "confidence": null
+ },
+ {
+  "text": " everyone",
+  "startMs": 52385,
+  "endMs": 52739,
+  "timestampMs": 52562,
+  "confidence": null
+ },
+ {
+  "text": " gets",
+  "startMs": 52769,
+  "endMs": 53124,
+  "timestampMs": 52947,
+  "confidence": null
+ },
+ {
+  "text": " waited",
+  "startMs": 53154,
+  "endMs": 53508,
+  "timestampMs": 53331,
+  "confidence": null
+ },
+ {
+  "text": " on.",
+  "startMs": 53538,
+  "endMs": 53893,
+  "timestampMs": 53716,
+  "confidence": null
+ },
+ {
+  "text": " Back",
+  "startMs": 55323,
+  "endMs": 55678,
+  "timestampMs": 55501,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 55708,
+  "endMs": 56062,
+  "timestampMs": 55885,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 56092,
+  "endMs": 56447,
+  "timestampMs": 56270,
+  "confidence": null
+ },
+ {
+  "text": " dinner.",
+  "startMs": 56477,
+  "endMs": 56832,
+  "timestampMs": 56655,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 56862,
+  "endMs": 57216,
+  "timestampMs": 57039,
+  "confidence": null
+ },
+ {
+  "text": " were",
+  "startMs": 57246,
+  "endMs": 57601,
+  "timestampMs": 57424,
+  "confidence": null
+ },
+ {
+  "text": " weighing",
+  "startMs": 57631,
+  "endMs": 57985,
+  "timestampMs": 57808,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 58015,
+  "endMs": 58370,
+  "timestampMs": 58192,
+  "confidence": null
+ },
+ {
+  "text": " private",
+  "startMs": 58400,
+  "endMs": 58755,
+  "timestampMs": 58578,
+  "confidence": null
+ },
+ {
+  "text": " room",
+  "startMs": 58785,
+  "endMs": 59139,
+  "timestampMs": 58962,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 59169,
+  "endMs": 59524,
+  "timestampMs": 59347,
+  "confidence": null
+ },
+ {
+  "text": " twenty.",
+  "startMs": 59554,
+  "endMs": 59908,
+  "timestampMs": 59731,
+  "confidence": null
+ },
+ {
+  "text": " Is",
+  "startMs": 59938,
+  "endMs": 60293,
+  "timestampMs": 60116,
+  "confidence": null
+ },
+ {
+  "text": " there",
+  "startMs": 60323,
+  "endMs": 60678,
+  "timestampMs": 60501,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 60708,
+  "endMs": 61062,
+  "timestampMs": 60885,
+  "confidence": null
+ },
+ {
+  "text": " place",
+  "startMs": 61092,
+  "endMs": 61447,
+  "timestampMs": 61270,
+  "confidence": null
+ },
+ {
+  "text": " he's",
+  "startMs": 61477,
+  "endMs": 61832,
+  "timestampMs": 61655,
+  "confidence": null
+ },
+ {
+  "text": " always",
+  "startMs": 61862,
+  "endMs": 62216,
+  "timestampMs": 62039,
+  "confidence": null
+ },
+ {
+  "text": " liked?",
+  "startMs": 62246,
+  "endMs": 62601,
+  "timestampMs": 62424,
+  "confidence": null
+ },
+ {
+  "text": " What's",
+  "startMs": 64231,
+  "endMs": 64585,
+  "timestampMs": 64408,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 64615,
+  "endMs": 64970,
+  "timestampMs": 64792,
+  "confidence": null
+ },
+ {
+  "text": " difference",
+  "startMs": 65000,
+  "endMs": 65355,
+  "timestampMs": 65178,
+  "confidence": null
+ },
+ {
+  "text": " between",
+  "startMs": 65385,
+  "endMs": 65739,
+  "timestampMs": 65562,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 65769,
+  "endMs": 66124,
+  "timestampMs": 65947,
+  "confidence": null
+ },
+ {
+  "text": " two?",
+  "startMs": 66154,
+  "endMs": 66508,
+  "timestampMs": 66331,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 67938,
+  "endMs": 68293,
+  "timestampMs": 68116,
+  "confidence": null
+ },
+ {
+  "text": " dinner",
+  "startMs": 68323,
+  "endMs": 68678,
+  "timestampMs": 68500,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 68708,
+  "endMs": 69062,
+  "timestampMs": 68885,
+  "confidence": null
+ },
+ {
+  "text": " formal",
+  "startMs": 69092,
+  "endMs": 69447,
+  "timestampMs": 69270,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 69477,
+  "endMs": 69832,
+  "timestampMs": 69655,
+  "confidence": null
+ },
+ {
+  "text": " someone",
+  "startMs": 69862,
+  "endMs": 70216,
+  "timestampMs": 70039,
+  "confidence": null
+ },
+ {
+  "text": " else",
+  "startMs": 70246,
+  "endMs": 70601,
+  "timestampMs": 70423,
+  "confidence": null
+ },
+ {
+  "text": " does",
+  "startMs": 70631,
+  "endMs": 70985,
+  "timestampMs": 70808,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 71015,
+  "endMs": 71370,
+  "timestampMs": 71193,
+  "confidence": null
+ },
+ {
+  "text": " work.",
+  "startMs": 71400,
+  "endMs": 71755,
+  "timestampMs": 71578,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 71785,
+  "endMs": 72139,
+  "timestampMs": 71962,
+  "confidence": null
+ },
+ {
+  "text": " barbecue",
+  "startMs": 72169,
+  "endMs": 72524,
+  "timestampMs": 72346,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 72554,
+  "endMs": 72908,
+  "timestampMs": 72731,
+  "confidence": null
+ },
+ {
+  "text": " relaxed,",
+  "startMs": 72938,
+  "endMs": 73293,
+  "timestampMs": 73116,
+  "confidence": null
+ },
+ {
+  "text": " but",
+  "startMs": 73323,
+  "endMs": 73678,
+  "timestampMs": 73500,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 73708,
+  "endMs": 74062,
+  "timestampMs": 73885,
+  "confidence": null
+ },
+ {
+  "text": " host",
+  "startMs": 74092,
+  "endMs": 74447,
+  "timestampMs": 74270,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 74477,
+  "endMs": 74832,
+  "timestampMs": 74655,
+  "confidence": null
+ },
+ {
+  "text": " cook.",
+  "startMs": 74862,
+  "endMs": 75216,
+  "timestampMs": 75039,
+  "confidence": null
+ },
+ {
+  "text": " Okay,",
+  "startMs": 76846,
+  "endMs": 77201,
+  "timestampMs": 77024,
+  "confidence": null
+ },
+ {
+  "text": " combine",
+  "startMs": 77231,
+  "endMs": 77585,
+  "timestampMs": 77408,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 77615,
+  "endMs": 77970,
+  "timestampMs": 77792,
+  "confidence": null
+ },
+ {
+  "text": " into",
+  "startMs": 78000,
+  "endMs": 78355,
+  "timestampMs": 78178,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 78385,
+  "endMs": 78739,
+  "timestampMs": 78562,
+  "confidence": null
+ },
+ {
+  "text": " plan.",
+  "startMs": 78769,
+  "endMs": 79124,
+  "timestampMs": 78947,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 80554,
+  "endMs": 80908,
+  "timestampMs": 80731,
+  "confidence": null
+ },
+ {
+  "text": " plan:",
+  "startMs": 80938,
+  "endMs": 81293,
+  "timestampMs": 81116,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 81323,
+  "endMs": 81678,
+  "timestampMs": 81500,
+  "confidence": null
+ },
+ {
+  "text": " catered",
+  "startMs": 81708,
+  "endMs": 82062,
+  "timestampMs": 81885,
+  "confidence": null
+ },
+ {
+  "text": " barbecue",
+  "startMs": 82092,
+  "endMs": 82447,
+  "timestampMs": 82270,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 82477,
+  "endMs": 82832,
+  "timestampMs": 82655,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 82862,
+  "endMs": 83216,
+  "timestampMs": 83039,
+  "confidence": null
+ },
+ {
+  "text": " backyard,",
+  "startMs": 83246,
+  "endMs": 83601,
+  "timestampMs": 83423,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 83631,
+  "endMs": 83985,
+  "timestampMs": 83808,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 84015,
+  "endMs": 84370,
+  "timestampMs": 84193,
+  "confidence": null
+ },
+ {
+  "text": " short",
+  "startMs": 84400,
+  "endMs": 84755,
+  "timestampMs": 84578,
+  "confidence": null
+ },
+ {
+  "text": " sit-down",
+  "startMs": 84785,
+  "endMs": 85139,
+  "timestampMs": 84962,
+  "confidence": null
+ },
+ {
+  "text": " toast",
+  "startMs": 85169,
+  "endMs": 85524,
+  "timestampMs": 85346,
+  "confidence": null
+ },
+ {
+  "text": " so",
+  "startMs": 85554,
+  "endMs": 85908,
+  "timestampMs": 85731,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 85938,
+  "endMs": 86293,
+  "timestampMs": 86116,
+  "confidence": null
+ },
+ {
+  "text": " still",
+  "startMs": 86323,
+  "endMs": 86678,
+  "timestampMs": 86500,
+  "confidence": null
+ },
+ {
+  "text": " feels",
+  "startMs": 86708,
+  "endMs": 87062,
+  "timestampMs": 86885,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 87092,
+  "endMs": 87447,
+  "timestampMs": 87270,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 87477,
+  "endMs": 87832,
+  "timestampMs": 87655,
+  "confidence": null
+ },
+ {
+  "text": " occasion.",
+  "startMs": 87862,
+  "endMs": 88216,
+  "timestampMs": 88039,
+  "confidence": null
+ }
+]

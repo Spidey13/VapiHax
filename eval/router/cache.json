@@ -1,0 +1,4772 @@
+{
+ "cont-1:f99865d5": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.9
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 259
+ },
+ "cont-2:8cf63385": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.56
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 92
+ },
+ "cont-3:76a3c01c": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.62
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.57
+  },
+  "ms": 104
+ },
+ "cont-4:be55308b": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.41
+  },
+  "ms": 102
+ },
+ "cont-5:81218889": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.8
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.34
+  },
+  "ms": 95
+ },
+ "cont-6:29e9b2fa": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.82
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.46
+  },
+  "ms": 91
+ },
+ "fork-1:f736491c": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.95
+  },
+  "ms": 101
+ },
+ "fork-2:4cca4773": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.87
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.93
+  },
+  "ms": 78
+ },
+ "fork-3:8a14a819": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.65
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.95
+  },
+  "ms": 100
+ },
+ "fork-4:593ea6a9": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.89
+  },
+  "ms": 89
+ },
+ "fork-5:55729e80": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.37
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.87
+  },
+  "ms": 90
+ },
+ "fork-6:28dbc705": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.65
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 88
+ },
+ "corr-1:8c470538": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 91
+ },
+ "corr-2:d9ea5781": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.98,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 129
+ },
+ "corr-3:6c6e0e45": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.3
+   },
+   "detailNotDirection": 0.95,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 108
+ },
+ "corr-4:962b8831": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 93
+ },
+ "corr-5:6a9fe7c9": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.91,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 97
+ },
+ "corr-6:81c7cd8f": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.76
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 90
+ },
+ "sw-1:3ce5b923": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.87
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.53
+  },
+  "ms": 90
+ },
+ "sw-2:196fabe9": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 90
+ },
+ "sw-3:1b295e2a": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.15
+  },
+  "ms": 89
+ },
+ "sw-4:78bdac8a": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 84
+ },
+ "sw-5:1f397627": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 97
+ },
+ "sw-6:4871181c": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 100
+ },
+ "hard-1:2a7badbc": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.87
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.36
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.76
+  },
+  "ms": 90
+ },
+ "hard-2:9644d275": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.72
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.39
+  },
+  "ms": 70
+ },
+ "hard-3:5caeda26": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.14
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 91
+ },
+ "hard-4:ae774144": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.43
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.72
+   },
+   "detailNotDirection": 0.83,
+   "takesUpSuggestion": 0.48
+  },
+  "ms": 79
+ },
+ "hard-5:58153fec": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.6
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.9
+   },
+   "detailNotDirection": 0.8,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 90
+ },
+ "hard-6:3e3da1eb": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.76
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.88
+   },
+   "detailNotDirection": 0.7,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 90
+ },
+ "park-1:a89a47bd": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.54
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 88
+ },
+ "park-2:05d66c4c": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.15
+  },
+  "ms": 108
+ },
+ "park-3:64997f9f": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.4
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 119
+ },
+ "park-4:b9e1c7ff": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 122
+ },
+ "scr-1:d8d57cb0": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 89
+ },
+ "scr-2:4fb779e4": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.17,
+   "takesUpSuggestion": 0.26
+  },
+  "ms": 110
+ },
+ "scr-3:1f9788c3": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 99
+ },
+ "scr-4:eabb3052": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 103
+ },
+ "rec-1:7c17c2ff": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.32
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 96
+ },
+ "rec-2:7c17267a": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 101
+ },
+ "rec-3:29f127e5": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.68
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.38
+  },
+  "ms": 91
+ },
+ "rec-4:a5cff269": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.4
+  },
+  "ms": 107
+ },
+ "cmp-1:831da892": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.9
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 90
+ },
+ "cmp-2:2272a73e": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.15
+  },
+  "ms": 100
+ },
+ "cmp-3:15948c44": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.82
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.79
+   },
+   "detailNotDirection": 0.19,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 82
+ },
+ "cmp-4:1c880073": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.31
+  },
+  "ms": 100
+ },
+ "mrg-1:68f1d0c8": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.56
+  },
+  "ms": 111
+ },
+ "mrg-2:f4d21a94": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 98
+ },
+ "mrg-3:e4dcf777": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 120
+ },
+ "mrg-4:1c0550d5": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.28
+  },
+  "ms": 79
+ },
+ "mrg-5:c673c77c": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.97
+  },
+  "ms": 90
+ },
+ "mrg-6:54adf38d": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.45
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.34
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.89
+  },
+  "ms": 88
+ },
+ "park-5:71e4fa6c": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 0.65
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.75
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.82
+  },
+  "ms": 98
+ },
+ "park-6:0b68972e": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.34
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.91
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.81
+  },
+  "ms": 87
+ },
+ "cont-7:6663d4d4": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.19
+  },
+  "ms": 116
+ },
+ "cont-8:03698ffc": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 90
+ },
+ "cont-9:52939f20": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.31
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 99
+ },
+ "cont-10:7e93e67e": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.76
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 108
+ },
+ "cont-11:7390a386": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.54
+  },
+  "ms": 90
+ },
+ "cont-12:e839eae4": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 99
+ },
+ "cont-13:31fd046d": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 99
+ },
+ "cont-14:c7e7f20f": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.43
+  },
+  "ms": 109
+ },
+ "cont-15:26240acb": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.52
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.28,
+   "takesUpSuggestion": 0.43
+  },
+  "ms": 88
+ },
+ "cont-16:c40db61b": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.22,
+   "takesUpSuggestion": 0.72
+  },
+  "ms": 82
+ },
+ "cont-17:0f213ac5": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.67
+  },
+  "ms": 110
+ },
+ "cont-18:9fd80ace": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.75
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.27,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 110
+ },
+ "cont-19:2ec35116": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.73
+  },
+  "ms": 80
+ },
+ "cont-20:2cc3d509": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.15
+  },
+  "ms": 90
+ },
+ "cont-21:86a9605e": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.17,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 91
+ },
+ "cont-22:a46580d9": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.88
+  },
+  "ms": 88
+ },
+ "cont-23:a9539ec7": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.91
+   },
+   "detailNotDirection": 0.17,
+   "takesUpSuggestion": 0.39
+  },
+  "ms": 96
+ },
+ "cont-24:8a59b853": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.26
+  },
+  "ms": 100
+ },
+ "cont-25:333ac937": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.18,
+   "takesUpSuggestion": 0.82
+  },
+  "ms": 101
+ },
+ "fork-7:7a98d86c": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 97
+ },
+ "fork-8:cfc8eaf2": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.81
+  },
+  "ms": 93
+ },
+ "fork-9:88fe685b": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.82
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.61
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 89
+ },
+ "fork-10:fa89f8f5": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.91
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 104
+ },
+ "fork-11:b21098f3": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.18,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 129
+ },
+ "fork-12:aa8d38c0": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.57
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.97
+  },
+  "ms": 107
+ },
+ "fork-13:194a15fe": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 89
+ },
+ "fork-14:c3447c48": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.77
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.25
+  },
+  "ms": 87
+ },
+ "fork-15:55f2b079": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.68
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.95
+  },
+  "ms": 98
+ },
+ "fork-16:8d895e96": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 90
+ },
+ "fork-17:97d17930": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 80
+ },
+ "fork-18:23afea4a": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.79
+  },
+  "ms": 132
+ },
+ "fork-19:b81a7263": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 119
+ },
+ "fork-20:3b7b3797": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.46,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 121
+ },
+ "fork-21:ff555841": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.88
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.86
+  },
+  "ms": 90
+ },
+ "fork-22:d1b0fa0c": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 98
+ },
+ "fork-23:bb2b955e": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 110
+ },
+ "fork-24:b321672d": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.81
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.82
+  },
+  "ms": 100
+ },
+ "fork-25:40a07d54": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 97
+ },
+ "corr-7:a0855924": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.83,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 89
+ },
+ "corr-8:901c71e2": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.9,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 101
+ },
+ "corr-9:df5cfd63": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 111
+ },
+ "corr-10:25923ccd": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 100
+ },
+ "corr-11:25c18183": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.94,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 108
+ },
+ "corr-12:fc2fb910": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.83,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 110
+ },
+ "corr-13:e5635eb4": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.98,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 90
+ },
+ "corr-14:5dd5015e": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.87,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 98
+ },
+ "corr-15:7a073f99": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 97
+ },
+ "corr-16:73496238": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.92,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 103
+ },
+ "corr-17:c13c0cfd": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.78,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 108
+ },
+ "corr-18:d38e496d": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.83,
+   "takesUpSuggestion": 0.25
+  },
+  "ms": 100
+ },
+ "corr-19:df8b5d71": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 101
+ },
+ "corr-20:4e68b43c": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 96
+ },
+ "corr-21:d50f4089": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 111
+ },
+ "corr-22:f3a3afa1": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 100
+ },
+ "corr-23:474b9c11": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.83,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 81
+ },
+ "corr-24:79dea6dd": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 90
+ },
+ "corr-25:137bc7b7": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.98,
+   "takesUpSuggestion": 0.51
+  },
+  "ms": 97
+ },
+ "sw-7:6b90cf68": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 90
+ },
+ "sw-8:97d13217": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 91
+ },
+ "sw-9:dc549624": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.18,
+   "takesUpSuggestion": 0.24
+  },
+  "ms": 98
+ },
+ "sw-10:ba4de532": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.15
+  },
+  "ms": 109
+ },
+ "sw-11:36ecfeaa": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 122
+ },
+ "sw-12:4b890602": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 89
+ },
+ "sw-13:77e5e939": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 111
+ },
+ "sw-14:0d091890": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.37
+  },
+  "ms": 109
+ },
+ "sw-15:beea805d": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 100
+ },
+ "sw-16:735969df": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 86
+ },
+ "sw-17:6fb231f6": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 80
+ },
+ "sw-18:5c4f6678": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 99
+ },
+ "sw-19:fac45e42": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.41,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 85
+ },
+ "sw-20:ee75a0a8": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 103
+ },
+ "sw-21:a92a06a9": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.18
+  },
+  "ms": 85
+ },
+ "sw-22:3035de9d": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 109
+ },
+ "sw-23:947f1420": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 93
+ },
+ "sw-24:d8444abf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.67
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 86
+ },
+ "sw-25:3a39674d": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 90
+ },
+ "park-7:836e0ccb": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 107
+ },
+ "scr-5:269b08d5": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.42,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 99
+ },
+ "rec-5:a102d705": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 99
+ },
+ "cmp-5:028d7657": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.18
+  },
+  "ms": 89
+ },
+ "mrg-7:a0d3b3f3": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.22,
+   "takesUpSuggestion": 0.18
+  },
+  "ms": 114
+ },
+ "mrg-8:ae8e9586": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.31
+  },
+  "ms": 109
+ },
+ "hard-7:9710c225": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 99
+ },
+ "hard-8:0bc32b02": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.87
+  },
+  "ms": 99
+ },
+ "hard-9:7d961c1d": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.26
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 98
+ },
+ "hard-10:996557a9": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.95,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 102
+ },
+ "hard-11:465e919c": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.28
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 106
+ },
+ "hard-12:a9ca84f1": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.88
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 89
+ },
+ "hard-13:0307ef03": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.47
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 93
+ },
+ "hard-14:88018e62": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.92
+  },
+  "ms": 105
+ },
+ "hard-15:e4f6c814": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.63
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.44
+  },
+  "ms": 99
+ },
+ "hard-16:952a4256": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.68
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.28
+  },
+  "ms": 86
+ },
+ "hard-17:bd069140": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.56
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 109
+ },
+ "hard-18:fa720d4f": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 96
+ },
+ "hard-19:e4658c4d": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 101
+ },
+ "hard-20:f3640df8": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b1",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 90
+ },
+ "hard-21:0b016e85": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.72
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.72,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 97
+ },
+ "hard-22:260bfe1c": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.51
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.95,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 79
+ },
+ "hard-23:a7922f22": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.72
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 111
+ },
+ "hard-24:99e6ece4": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.79
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 89
+ },
+ "hard-25:793ecc47": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.73
+  },
+  "ms": 91
+ },
+ "hard-26:71f4d3cf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.25
+  },
+  "ms": 88
+ },
+ "cont-1:f99865d5:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.84
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.04
+  },
+  "ms": 210
+ },
+ "cont-2:8cf63385:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.56
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 122
+ },
+ "cont-3:76a3c01c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.62
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.03
+  },
+  "ms": 127
+ },
+ "cont-4:be55308b:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.84
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 107
+ },
+ "cont-5:81218889:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.76
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 98
+ },
+ "cont-6:29e9b2fa:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.84
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 106
+ },
+ "fork-1:f736491c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.85
+  },
+  "ms": 115
+ },
+ "fork-2:4cca4773:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.85
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.92
+  },
+  "ms": 90
+ },
+ "fork-3:8a14a819:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.61
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.87
+  },
+  "ms": 89
+ },
+ "fork-4:593ea6a9:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.89
+  },
+  "ms": 109
+ },
+ "fork-5:55729e80:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.35
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.88
+  },
+  "ms": 91
+ },
+ "fork-6:28dbc705:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.67
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.44
+  },
+  "ms": 118
+ },
+ "corr-1:8c470538:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 82
+ },
+ "corr-2:d9ea5781:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.98,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 101
+ },
+ "corr-3:6c6e0e45:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.26
+   },
+   "detailNotDirection": 0.95,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 114
+ },
+ "corr-4:962b8831:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 102
+ },
+ "corr-5:6a9fe7c9:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.93,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 101
+ },
+ "corr-6:81c7cd8f:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.76
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 77
+ },
+ "sw-1:3ce5b923:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.87
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.66
+  },
+  "ms": 99
+ },
+ "sw-2:196fabe9:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 91
+ },
+ "sw-3:1b295e2a:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.45
+  },
+  "ms": 100
+ },
+ "sw-4:78bdac8a:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.53
+  },
+  "ms": 89
+ },
+ "sw-5:1f397627:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 79
+ },
+ "sw-6:4871181c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.49
+  },
+  "ms": 80
+ },
+ "hard-1:2a7badbc:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.87
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.54
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 90
+ },
+ "hard-2:9644d275:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.68
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.25
+  },
+  "ms": 99
+ },
+ "hard-3:5caeda26:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.16
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 90
+ },
+ "hard-4:ae774144:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.43
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.8
+   },
+   "detailNotDirection": 0.83,
+   "takesUpSuggestion": 0.37
+  },
+  "ms": 92
+ },
+ "hard-5:58153fec:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.61
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.9
+   },
+   "detailNotDirection": 0.84,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 78
+ },
+ "hard-6:3e3da1eb:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.8
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.74,
+   "takesUpSuggestion": 0.45
+  },
+  "ms": 81
+ },
+ "park-1:a89a47bd:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.66
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 97
+ },
+ "park-2:05d66c4c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.19
+  },
+  "ms": 92
+ },
+ "park-3:64997f9f:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.5
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 98
+ },
+ "park-4:b9e1c7ff:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 110
+ },
+ "scr-1:d8d57cb0:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 99
+ },
+ "scr-2:4fb779e4:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.17,
+   "takesUpSuggestion": 0.19
+  },
+  "ms": 131
+ },
+ "scr-3:1f9788c3:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 89
+ },
+ "scr-4:eabb3052:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 140
+ },
+ "rec-1:7c17c2ff:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.32
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 121
+ },
+ "rec-2:7c17267a:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 99
+ },
+ "rec-3:29f127e5:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.78
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 159
+ },
+ "rec-4:a5cff269:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 120
+ },
+ "cmp-1:831da892:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.9
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 122
+ },
+ "cmp-2:2272a73e:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 88
+ },
+ "cmp-3:15948c44:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.73
+   },
+   "detailNotDirection": 0.21,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 110
+ },
+ "cmp-4:1c880073:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 128
+ },
+ "mrg-1:68f1d0c8:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.27
+  },
+  "ms": 91
+ },
+ "mrg-2:f4d21a94:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.19
+  },
+  "ms": 131
+ },
+ "mrg-3:e4dcf777:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 132
+ },
+ "mrg-4:1c0550d5:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.44
+  },
+  "ms": 118
+ },
+ "mrg-5:c673c77c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.39
+  },
+  "ms": 120
+ },
+ "mrg-6:54adf38d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.45
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.4
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.4
+  },
+  "ms": 99
+ },
+ "park-5:71e4fa6c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 0.65
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.81
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.33
+  },
+  "ms": 107
+ },
+ "park-6:0b68972e:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 0.36
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.57
+  },
+  "ms": 95
+ },
+ "cont-7:6663d4d4:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 101
+ },
+ "cont-8:03698ffc:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 107
+ },
+ "cont-9:52939f20:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.26
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 108
+ },
+ "cont-10:7e93e67e:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.65
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 104
+ },
+ "cont-11:7390a386:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.19,
+   "takesUpSuggestion": 0.03
+  },
+  "ms": 113
+ },
+ "cont-12:e839eae4:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.04
+  },
+  "ms": 104
+ },
+ "cont-13:31fd046d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 104
+ },
+ "cont-14:c7e7f20f:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 116
+ },
+ "cont-15:26240acb:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.47
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.31,
+   "takesUpSuggestion": 0.5
+  },
+  "ms": 126
+ },
+ "cont-16:c40db61b:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.21,
+   "takesUpSuggestion": 0.27
+  },
+  "ms": 79
+ },
+ "cont-17:0f213ac5:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 120
+ },
+ "cont-18:9fd80ace:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.79
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.25,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 98
+ },
+ "cont-19:2ec35116:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 91
+ },
+ "cont-20:2cc3d509:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 120
+ },
+ "cont-21:86a9605e:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 101
+ },
+ "cont-22:a46580d9:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.9
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.41
+  },
+  "ms": 88
+ },
+ "cont-23:a9539ec7:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.16,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 87
+ },
+ "cont-24:8a59b853:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 78
+ },
+ "cont-25:333ac937:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.18,
+   "takesUpSuggestion": 0.04
+  },
+  "ms": 91
+ },
+ "fork-7:7a98d86c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.46
+  },
+  "ms": 90
+ },
+ "fork-8:cfc8eaf2:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.61
+  },
+  "ms": 101
+ },
+ "fork-9:88fe685b:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.81
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.61
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 108
+ },
+ "fork-10:fa89f8f5:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.94
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.33
+  },
+  "ms": 103
+ },
+ "fork-11:b21098f3:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.47
+  },
+  "ms": 113
+ },
+ "fork-12:aa8d38c0:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.62
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.79
+  },
+  "ms": 119
+ },
+ "fork-13:194a15fe:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.4
+  },
+  "ms": 94
+ },
+ "fork-14:c3447c48:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.74
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.29
+  },
+  "ms": 127
+ },
+ "fork-15:55f2b079:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.71
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.75
+  },
+  "ms": 102
+ },
+ "fork-16:8d895e96:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.42
+  },
+  "ms": 124
+ },
+ "fork-17:97d17930:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.52
+  },
+  "ms": 126
+ },
+ "fork-18:23afea4a:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.86
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.72
+  },
+  "ms": 91
+ },
+ "fork-19:b81a7263:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 99
+ },
+ "fork-20:3b7b3797:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.44,
+   "takesUpSuggestion": 0.6
+  },
+  "ms": 101
+ },
+ "fork-21:ff555841:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.9
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.64
+  },
+  "ms": 93
+ },
+ "fork-22:d1b0fa0c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.92
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 116
+ },
+ "fork-23:bb2b955e:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.55
+  },
+  "ms": 101
+ },
+ "fork-24:b321672d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.79
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.53
+  },
+  "ms": 109
+ },
+ "fork-25:40a07d54:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.21
+  },
+  "ms": 97
+ },
+ "corr-7:a0855924:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.82,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 100
+ },
+ "corr-8:901c71e2:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.91,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 111
+ },
+ "corr-9:df5cfd63:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 128
+ },
+ "corr-10:25923ccd:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 99
+ },
+ "corr-11:25c18183:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.94,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 144
+ },
+ "corr-12:fc2fb910:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.91,
+   "takesUpSuggestion": 0.04
+  },
+  "ms": 97
+ },
+ "corr-13:e5635eb4:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.98,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 102
+ },
+ "corr-14:5dd5015e:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.88,
+   "takesUpSuggestion": 0.1
+  },
+  "ms": 128
+ },
+ "corr-15:7a073f99:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 98
+ },
+ "corr-16:73496238:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.91,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 102
+ },
+ "corr-17:c13c0cfd:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.79,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 90
+ },
+ "corr-18:d38e496d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.9
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.82,
+   "takesUpSuggestion": 0.23
+  },
+  "ms": 98
+ },
+ "corr-19:df8b5d71:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.07
+  },
+  "ms": 79
+ },
+ "corr-20:4e68b43c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 91
+ },
+ "corr-21:d50f4089:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.14
+  },
+  "ms": 99
+ },
+ "corr-22:f3a3afa1:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 91
+ },
+ "corr-23:474b9c11:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.84,
+   "takesUpSuggestion": 0.08
+  },
+  "ms": 101
+ },
+ "corr-24:79dea6dd:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 77
+ },
+ "corr-25:137bc7b7:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 100
+ },
+ "sw-7:6b90cf68:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.38
+  },
+  "ms": 109
+ },
+ "sw-8:97d13217:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.4
+  },
+  "ms": 99
+ },
+ "sw-9:dc549624:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.19,
+   "takesUpSuggestion": 0.38
+  },
+  "ms": 100
+ },
+ "sw-10:ba4de532:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.5
+  },
+  "ms": 112
+ },
+ "sw-11:36ecfeaa:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.24
+  },
+  "ms": 97
+ },
+ "sw-12:4b890602:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.2
+  },
+  "ms": 92
+ },
+ "sw-13:77e5e939:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.16
+  },
+  "ms": 118
+ },
+ "sw-14:0d091890:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.44
+  },
+  "ms": 100
+ },
+ "sw-15:beea805d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.33
+  },
+  "ms": 96
+ },
+ "sw-16:735969df:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.43
+  },
+  "ms": 92
+ },
+ "sw-17:6fb231f6:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.09,
+   "takesUpSuggestion": 0.6
+  },
+  "ms": 90
+ },
+ "sw-18:5c4f6678:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.91
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.53
+  },
+  "ms": 94
+ },
+ "sw-19:fac45e42:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.43,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 95
+ },
+ "sw-20:ee75a0a8:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 92
+ },
+ "sw-21:a92a06a9:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.37
+  },
+  "ms": 98
+ },
+ "sw-22:3035de9d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.17
+  },
+  "ms": 111
+ },
+ "sw-23:947f1420:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.51
+  },
+  "ms": 122
+ },
+ "sw-24:d8444abf:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.56
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 87
+ },
+ "sw-25:3a39674d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.57
+  },
+  "ms": 112
+ },
+ "park-7:836e0ccb:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "park",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 98
+ },
+ "scr-5:269b08d5:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "scratch",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.34,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 88
+ },
+ "rec-5:a102d705:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "recap",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 100
+ },
+ "cmp-5:028d7657:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.92
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 92
+ },
+ "mrg-7:a0d3b3f3:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.19
+  },
+  "ms": 96
+ },
+ "mrg-8:ae8e9586:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.25
+  },
+  "ms": 93
+ },
+ "hard-7:9710c225:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.9
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.06
+  },
+  "ms": 109
+ },
+ "hard-8:0bc32b02:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.98
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.3
+  },
+  "ms": 101
+ },
+ "hard-9:7d961c1d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.84
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.28
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.5
+  },
+  "ms": 87
+ },
+ "hard-10:996557a9:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.95,
+   "takesUpSuggestion": 0.22
+  },
+  "ms": 90
+ },
+ "hard-11:465e919c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.34
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.58
+  },
+  "ms": 96
+ },
+ "hard-12:a9ca84f1:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.89
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.8
+  },
+  "ms": 90
+ },
+ "hard-13:0307ef03:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.47
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.06,
+   "takesUpSuggestion": 0.48
+  },
+  "ms": 100
+ },
+ "hard-14:88018e62:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.96
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.05
+  },
+  "ms": 90
+ },
+ "hard-15:e4f6c814:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.68
+   },
+   "target": {
+    "choice": "b3",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.1,
+   "takesUpSuggestion": 0.13
+  },
+  "ms": 100
+ },
+ "hard-16:952a4256:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.72
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.11,
+   "takesUpSuggestion": 0.09
+  },
+  "ms": 111
+ },
+ "hard-17:bd069140:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.6
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.04,
+   "takesUpSuggestion": 0.04
+  },
+  "ms": 108
+ },
+ "hard-18:fa720d4f:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.12
+  },
+  "ms": 100
+ },
+ "hard-19:e4658c4d:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.93
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.36
+  },
+  "ms": 100
+ },
+ "hard-20:f3640df8:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.99
+   },
+   "target": {
+    "choice": "b1",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.3
+  },
+  "ms": 98
+ },
+ "hard-21:0b016e85:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.71
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.73,
+   "takesUpSuggestion": 0.25
+  },
+  "ms": 100
+ },
+ "hard-22:260bfe1c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.51
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.96,
+   "takesUpSuggestion": 0.44
+  },
+  "ms": 100
+ },
+ "hard-23:a7922f22:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.75
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.07,
+   "takesUpSuggestion": 0.51
+  },
+  "ms": 92
+ },
+ "hard-24:99e6ece4:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.74
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.88
+   },
+   "detailNotDirection": 0.15,
+   "takesUpSuggestion": 0.34
+  },
+  "ms": 148
+ },
+ "hard-25:793ecc47:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.97
+   },
+   "detailNotDirection": 0.14,
+   "takesUpSuggestion": 0.11
+  },
+  "ms": 121
+ },
+ "hard-26:71f4d3cf:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "correction",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 0.83
+   },
+   "detailNotDirection": 0.97,
+   "takesUpSuggestion": 0.15
+  },
+  "ms": 87
+ },
+ "demo-1:f82b615a:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.56
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.05,
+   "takesUpSuggestion": 0.02
+  },
+  "ms": 268
+ },
+ "demo-2:2feef201:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "newDirection",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "none",
+    "confidence": 1
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.7
+  },
+  "ms": 113
+ },
+ "demo-3:47af2422:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "continue",
+    "confidence": 0.97
+   },
+   "target": {
+    "choice": "b1",
+    "confidence": 0.14
+   },
+   "detailNotDirection": 0.2,
+   "takesUpSuggestion": 0.34
+  },
+  "ms": 124
+ },
+ "demo-4:f65e4169:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "switchBack",
+    "confidence": 0.87
+   },
+   "target": {
+    "choice": "b1",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.13,
+   "takesUpSuggestion": 0.52
+  },
+  "ms": 116
+ },
+ "demo-5:70f0463c:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "compare",
+    "confidence": 0.94
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.96
+   },
+   "detailNotDirection": 0.12,
+   "takesUpSuggestion": 0.29
+  },
+  "ms": 106
+ },
+ "demo-6:d80b378a:2154981c9fdf": {
+  "raw": {
+   "intent": {
+    "choice": "merge",
+    "confidence": 1
+   },
+   "target": {
+    "choice": "b2",
+    "confidence": 0.98
+   },
+   "detailNotDirection": 0.08,
+   "takesUpSuggestion": 0.47
+  },
+  "ms": 93
+ }
+}

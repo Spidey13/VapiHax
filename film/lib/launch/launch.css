@@ -1,0 +1,36 @@
+/* The launch film's layer: the frame, the camera, the cursor, the hook, the captions. The app's own look comes from
+   app/style.css (+ app/film-overrides.css); the light's styles are in lights.css. Nothing here animates or
+   transitions on its own: every value is set from time in draw.js. Fonts: Instrument Sans and JetBrains Mono are
+   loaded by src/fonts.ts (Remotion) or by dev.html (the probe page). */
+html, body { margin: 0; background: var(--base); }
+#frame { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: var(--base); }
+
+/* one shape, never cut: the backdrop is the glass's own ground. When the app layer dips at a seam it shows through. */
+#backdrop { position: absolute; inset: 0; background: var(--base); }
+
+/* the camera holds the app in a 960 x 1080 window; its transform makes it the containing block for the app's
+   fixed layers. The app's glass extends a window beyond each edge (film-overrides.css), so no edge shows. */
+#cam { position: absolute; left: 0; top: 0; width: 960px; height: 1080px; transform-origin: 0 0; }
+#app { position: absolute; inset: 0; }
+#lights { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+#cursor-layer { position: absolute; inset: 0; z-index: 9; pointer-events: none; visibility: hidden; }
+
+/* the film's own screens (hook, start, end) are set per frame: the app's CSS transitions and animations stay off */
+#app.screen *, #app.screen *::before, #app.screen *::after { transition: none !important; animation: none !important; }
+#start-screen { position: absolute; }
+
+/* the cursor on the start screen (the one click in the film) */
+#cursor { position: absolute; width: 22px; height: 30px; translate: -3px -2px; transform-origin: 3px 2px; background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 30'><path d='M2 2v22l6-5.6 4 9.2 4-1.8-4-9H20z' fill='%231B1F2B' stroke='white' stroke-width='1.6' stroke-linejoin='round'/></svg>") no-repeat; filter: drop-shadow(0 3px 6px rgba(27,31,43,.25)); }
+#ripple { position: absolute; translate: -50% -50%; border-radius: 50%; border: 2px solid hsl(var(--cur-h)); visibility: hidden; }
+
+/* the hook: two lines centred on the glass, each blurs in on a beat */
+#hook { position: absolute; inset: 0; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; pointer-events: none; text-align: center; }
+#hook p { margin: 0; font: 500 76px/1.08 var(--sans); letter-spacing: -.03em; color: var(--ink); opacity: 0; }
+#hook p + p { color: var(--ink-3); }
+
+/* the captions: a plain headline and a small monospace tag, in the right column */
+#cap { position: absolute; left: 1180px; top: 0; bottom: 0; width: 600px; display: flex; flex-direction: column; justify-content: center; gap: 26px; z-index: 10; pointer-events: none; visibility: hidden; }
+#cap-head { margin: 0; font: 500 52px/1.08 var(--sans); letter-spacing: -.025em; color: var(--ink); text-wrap: balance; }
+#cap-tag { display: flex; align-items: center; gap: 12px; margin: 0; font: 400 19px/1.3 "JetBrains Mono", ui-monospace, monospace; letter-spacing: -.01em; color: var(--ink-3); }
+#cap-tag:empty { display: none; }
+#cap-tag::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: hsl(var(--h)); box-shadow: 0 0 0 4px hsl(var(--h) / .28); }

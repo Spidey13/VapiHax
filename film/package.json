@@ -1,0 +1,38 @@
+{
+  "name": "branch-voice-film",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node ../scripts/film-render.mjs",
+    "draft": "node ../scripts/film-render.mjs draft",
+    "transcribe": "node scripts/transcribe.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/captions": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/effects": "4.0.540",
+    "@remotion/fonts": "4.0.540",
+    "@remotion/install-whisper-cpp": "4.0.540",
+    "@remotion/media": "4.0.540",
+    "@remotion/media-utils": "4.0.540",
+    "@remotion/motion-blur": "4.0.540",
+    "@remotion/rough-notation": "4.0.540",
+    "@remotion/shapes": "4.0.540",
+    "@remotion/three": "4.0.540",
+    "@remotion/transitions": "4.0.540",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remotion": "4.0.540",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/three": "0.187.0",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

@@ -1,0 +1,2212 @@
+{
+ "version": 1,
+ "offset": 0,
+ "standIn": true,
+ "events": [
+  {
+   "t": 0,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 0,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450360
+     }
+    ],
+    "path": [],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": []
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": null,
+    "ended": null
+   }
+  },
+  {
+   "t": 0.8,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 3.108,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 3.408,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Hi. What are you thinking about?"
+  },
+  {
+   "t": 5.308,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 5.942,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning"
+  },
+  {
+   "t": 6.712,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's"
+  },
+  {
+   "t": 7.481,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's sixtieth birthday,"
+  },
+  {
+   "t": 8.25,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's sixtieth birthday, about twenty"
+  },
+  {
+   "t": 9.019,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's sixtieth birthday, about twenty people, and"
+  },
+  {
+   "t": 9.788,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking"
+  },
+  {
+   "t": 10.558,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice"
+  },
+  {
+   "t": 11.327,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner."
+  },
+  {
+   "t": 11.462,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 11.762,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner."
+  },
+  {
+   "t": 12.362,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 1,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450398,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 12.862,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 13.562,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 2,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450398,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 19.4,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 19.7,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+  },
+  {
+   "t": 21,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 21.635,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what"
+  },
+  {
+   "t": 22.404,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what if we"
+  },
+  {
+   "t": 23.173,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what if we skipped the"
+  },
+  {
+   "t": 23.942,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what if we skipped the restaurant and"
+  },
+  {
+   "t": 24.712,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what if we skipped the restaurant and did a"
+  },
+  {
+   "t": 25.481,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what if we skipped the restaurant and did a backyard barbecue"
+  },
+  {
+   "t": 25.865,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?"
+  },
+  {
+   "t": 26,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 26.3,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?"
+  },
+  {
+   "t": 26.9,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 4,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450398,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "provisional",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450404,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+      "at": 1794778450404
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "provisional",
+      "originName": "Main",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+        "at": 1794778450404
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Main",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "fork",
+      "acknowledge": false
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 27,
+   "type": "play",
+   "phase": "start",
+   "kind": "fork",
+   "revision": 4
+  },
+  {
+   "t": 27.4,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 28.1,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 5,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450398,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "provisional",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450404,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+      "at": 1794778450404
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?",
+      "at": 1794778450404
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "provisional",
+      "originName": "Main",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+        "at": 1794778450404
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?",
+        "at": 1794778450404
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Main",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "fork",
+      "acknowledge": false
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 28.2,
+   "type": "play",
+   "phase": "end",
+   "kind": "fork",
+   "revision": 4
+  },
+  {
+   "t": 33.554,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 33.854,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?"
+  },
+  {
+   "t": 35.154,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 35.788,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon,"
+  },
+  {
+   "t": 36.558,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon, with a"
+  },
+  {
+   "t": 37.327,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon, with a big grill"
+  },
+  {
+   "t": 38.096,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon, with a big grill and a"
+  },
+  {
+   "t": 38.865,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon, with a big grill and a few long"
+  },
+  {
+   "t": 39.635,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon, with a big grill and a few long tables under"
+  },
+  {
+   "t": 40.404,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Saturday afternoon, with a big grill and a few long tables under string lights."
+  },
+  {
+   "t": 40.538,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 40.838,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Saturday afternoon, with a big grill and a few long tables under string lights."
+  },
+  {
+   "t": 41.438,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 7,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450398,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+      "at": 1794778450404
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?",
+      "at": 1794778450404
+     },
+     {
+      "id": "t5",
+      "branchId": "b2",
+      "role": "user",
+      "text": "Saturday afternoon, with a big grill and a few long tables under string lights.",
+      "at": 1794778450408
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "originName": "Main",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+        "at": 1794778450404
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?",
+        "at": 1794778450404
+       },
+       {
+        "id": "t5",
+        "branchId": "b2",
+        "role": "user",
+        "text": "Saturday afternoon, with a big grill and a few long tables under string lights.",
+        "at": 1794778450408
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Main",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 41.938,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 42.638,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 8,
+    "hold": false,
+    "currentBranchId": "b2",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450398,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 1
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t3",
+      "branchId": "b2",
+      "role": "user",
+      "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+      "at": 1794778450404
+     },
+     {
+      "id": "t4",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?",
+      "at": 1794778450404
+     },
+     {
+      "id": "t5",
+      "branchId": "b2",
+      "role": "user",
+      "text": "Saturday afternoon, with a big grill and a few long tables under string lights.",
+      "at": 1794778450408
+     },
+     {
+      "id": "t6",
+      "branchId": "b2",
+      "role": "assistant",
+      "text": "That sounds easy to love. Who takes the grill, so you get to sit with him?",
+      "at": 1794778450408
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "originName": "Main",
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t3",
+        "branchId": "b2",
+        "role": "user",
+        "text": "Actually, what if we skipped the restaurant and did a backyard barbecue instead?",
+        "at": 1794778450404
+       },
+       {
+        "id": "t4",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "A barbecue feels more like him. Who's on the grill, and is there a rain plan?",
+        "at": 1794778450404
+       },
+       {
+        "id": "t5",
+        "branchId": "b2",
+        "role": "user",
+        "text": "Saturday afternoon, with a big grill and a few long tables under string lights.",
+        "at": 1794778450408
+       },
+       {
+        "id": "t6",
+        "branchId": "b2",
+        "role": "assistant",
+        "text": "That sounds easy to love. Who takes the grill, so you get to sit with him?",
+        "at": 1794778450408
+       }
+      ]
+     },
+     "peek": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+     },
+     "others": [
+      {
+       "id": "b1",
+       "name": "Main",
+       "status": "live",
+       "originName": null,
+       "lastLine": "Twenty is a good size for a private room. Do you have a place in mind yet?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "continue"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 48.092,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 48.392,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+  },
+  {
+   "t": 49.692,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 50.327,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back"
+  },
+  {
+   "t": 51.096,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the"
+  },
+  {
+   "t": 51.865,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the fancy one,"
+  },
+  {
+   "t": 52.635,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the fancy one, where everyone"
+  },
+  {
+   "t": 53.404,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the fancy one, where everyone gets waited"
+  },
+  {
+   "t": 53.788,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Go back to the fancy one, where everyone gets waited on."
+  },
+  {
+   "t": 53.923,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 54.223,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Go back to the fancy one, where everyone gets waited on."
+  },
+  {
+   "t": 54.823,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 10,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450412,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the fancy one, where everyone gets waited on.",
+      "at": 1794778450412
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the fancy one, where everyone gets waited on.",
+        "at": 1794778450412
+       }
+      ]
+     },
+     "peek": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "originName": "Main",
+      "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+     },
+     "others": [
+      {
+       "id": "b2",
+       "name": "Backyard barbecue",
+       "status": "live",
+       "originName": "Main",
+       "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "switch",
+      "targetId": "b1"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 54.923,
+   "type": "play",
+   "phase": "start",
+   "kind": "switch",
+   "revision": 10
+  },
+  {
+   "t": 55.323,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 55.823,
+   "type": "play",
+   "phase": "end",
+   "kind": "switch",
+   "revision": 10
+  },
+  {
+   "t": 56.023,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 11,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450412,
+      "continueStreak": 0
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 0
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the fancy one, where everyone gets waited on.",
+      "at": 1794778450412
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to Main. Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?",
+      "at": 1794778450412
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the fancy one, where everyone gets waited on.",
+        "at": 1794778450412
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to Main. Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?",
+        "at": 1794778450412
+       }
+      ]
+     },
+     "peek": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "originName": "Main",
+      "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+     },
+     "others": [
+      {
+       "id": "b2",
+       "name": "Backyard barbecue",
+       "status": "live",
+       "originName": "Main",
+       "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "switch",
+      "targetId": "b1"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 62.631,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 62.931,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?"
+  },
+  {
+   "t": 64.231,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 64.865,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "What's the"
+  },
+  {
+   "t": 65.635,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "What's the difference between"
+  },
+  {
+   "t": 66.404,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "What's the difference between the two?"
+  },
+  {
+   "t": 66.538,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 66.838,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "What's the difference between the two?"
+  },
+  {
+   "t": 67.438,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 12,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450416,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the fancy one, where everyone gets waited on.",
+      "at": 1794778450412
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to Main. Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?",
+      "at": 1794778450412
+     },
+     {
+      "id": "t9",
+      "branchId": "b1",
+      "role": "user",
+      "text": "What's the difference between the two?",
+      "at": 1794778450416
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the fancy one, where everyone gets waited on.",
+        "at": 1794778450412
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to Main. Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?",
+        "at": 1794778450412
+       },
+       {
+        "id": "t9",
+        "branchId": "b1",
+        "role": "user",
+        "text": "What's the difference between the two?",
+        "at": 1794778450416
+       }
+      ]
+     },
+     "peek": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "originName": "Main",
+      "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+     },
+     "others": [
+      {
+       "id": "b2",
+       "name": "Backyard barbecue",
+       "status": "live",
+       "originName": "Main",
+       "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "compare",
+      "otherId": "b2"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 67.538,
+   "type": "play",
+   "phase": "start",
+   "kind": "compare",
+   "revision": 12
+  },
+  {
+   "t": 67.938,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 68.638,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 13,
+    "hold": false,
+    "currentBranchId": "b1",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "live",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450416,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t7",
+      "branchId": "b1",
+      "role": "user",
+      "text": "Go back to the fancy one, where everyone gets waited on.",
+      "at": 1794778450412
+     },
+     {
+      "id": "t8",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Back to Main. Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?",
+      "at": 1794778450412
+     },
+     {
+      "id": "t9",
+      "branchId": "b1",
+      "role": "user",
+      "text": "What's the difference between the two?",
+      "at": 1794778450416
+     },
+     {
+      "id": "t10",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "The dinner is formal and someone else does the work. The barbecue is relaxed, but you host and cook.",
+      "at": 1794778450416,
+      "kind": "compare"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b1",
+      "name": "Main",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t7",
+        "branchId": "b1",
+        "role": "user",
+        "text": "Go back to the fancy one, where everyone gets waited on.",
+        "at": 1794778450412
+       },
+       {
+        "id": "t8",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Back to Main. Back to the dinner. You were weighing a private room for twenty. Is there a place he's always liked?",
+        "at": 1794778450412
+       },
+       {
+        "id": "t9",
+        "branchId": "b1",
+        "role": "user",
+        "text": "What's the difference between the two?",
+        "at": 1794778450416
+       },
+       {
+        "id": "t10",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "The dinner is formal and someone else does the work. The barbecue is relaxed, but you host and cook.",
+        "at": 1794778450416,
+        "kind": "compare"
+       }
+      ]
+     },
+     "peek": {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "live",
+      "originName": "Main",
+      "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+     },
+     "others": [
+      {
+       "id": "b2",
+       "name": "Backyard barbecue",
+       "status": "live",
+       "originName": "Main",
+       "lastLine": "That sounds easy to love. Who takes the grill, so you get to sit with him?"
+      }
+     ],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "compare",
+      "otherId": "b2"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 70.538,
+   "type": "play",
+   "phase": "end",
+   "kind": "compare",
+   "revision": 12
+  },
+  {
+   "t": 75.246,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 75.546,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "The dinner is formal and someone else does the work. The barbecue is relaxed, but you host and cook."
+  },
+  {
+   "t": 76.846,
+   "type": "speech",
+   "role": "user",
+   "status": "started"
+  },
+  {
+   "t": 77.481,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Okay, combine"
+  },
+  {
+   "t": 78.25,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Okay, combine them into"
+  },
+  {
+   "t": 79.019,
+   "type": "transcript",
+   "role": "user",
+   "final": false,
+   "text": "Okay, combine them into one plan."
+  },
+  {
+   "t": 79.154,
+   "type": "speech",
+   "role": "user",
+   "status": "stopped"
+  },
+  {
+   "t": 79.454,
+   "type": "transcript",
+   "role": "user",
+   "final": true,
+   "text": "Okay, combine them into one plan."
+  },
+  {
+   "t": 80.054,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 15,
+    "hold": false,
+    "currentBranchId": "b3",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450416,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     },
+     {
+      "id": "b3",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Catered backyard party",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b2"
+      ],
+      "createdAt": 1794778450420,
+      "lastActiveAt": 1794778450420,
+      "continueStreak": 0,
+      "mergeDigests": [
+       "Thread \"Main\": Main: stand-in digest.",
+       "Thread \"Backyard barbecue\": Backyard barbecue: stand-in digest."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t11",
+      "branchId": "b3",
+      "role": "user",
+      "text": "Okay, combine them into one plan.",
+      "at": 1794778450420
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b3",
+      "name": "Catered backyard party",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t11",
+        "branchId": "b3",
+        "role": "user",
+        "text": "Okay, combine them into one plan.",
+        "at": 1794778450420
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "merge",
+      "otherId": "b2"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 80.154,
+   "type": "play",
+   "phase": "start",
+   "kind": "merge",
+   "revision": 15
+  },
+  {
+   "t": 80.554,
+   "type": "speech",
+   "role": "assistant",
+   "status": "started"
+  },
+  {
+   "t": 81.054,
+   "type": "play",
+   "phase": "end",
+   "kind": "merge",
+   "revision": 15
+  },
+  {
+   "t": 81.254,
+   "type": "state",
+   "state": {
+    "sessionId": "d59d9ef2-8052-4e84-9b08-ada83e4ced46",
+    "epoch": 0,
+    "revision": 16,
+    "hold": false,
+    "currentBranchId": "b3",
+    "branches": [
+     {
+      "id": "b1",
+      "parentId": null,
+      "forkAfterTurnId": null,
+      "name": "Main",
+      "status": "faded",
+      "origin": "root",
+      "createdAt": 1794778450360,
+      "lastActiveAt": 1794778450416,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     },
+     {
+      "id": "b2",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Backyard barbecue",
+      "status": "faded",
+      "origin": "fork",
+      "createdAt": 1794778450404,
+      "lastActiveAt": 1794778450408,
+      "continueStreak": 0,
+      "mergeOffered": [
+       "b1|b2"
+      ]
+     },
+     {
+      "id": "b3",
+      "parentId": "b1",
+      "forkAfterTurnId": "t2",
+      "name": "Catered backyard party",
+      "status": "live",
+      "origin": "merge",
+      "mergedFrom": [
+       "b1",
+       "b2"
+      ],
+      "createdAt": 1794778450420,
+      "lastActiveAt": 1794778450420,
+      "continueStreak": 0,
+      "mergeDigests": [
+       "Thread \"Main\": Main: stand-in digest.",
+       "Thread \"Backyard barbecue\": Backyard barbecue: stand-in digest."
+      ]
+     }
+    ],
+    "path": [
+     {
+      "id": "t1",
+      "branchId": "b1",
+      "role": "user",
+      "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+      "at": 1794778450398
+     },
+     {
+      "id": "t2",
+      "branchId": "b1",
+      "role": "assistant",
+      "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+      "at": 1794778450398
+     },
+     {
+      "id": "t11",
+      "branchId": "b3",
+      "role": "user",
+      "text": "Okay, combine them into one plan.",
+      "at": 1794778450420
+     },
+     {
+      "id": "t12",
+      "branchId": "b3",
+      "role": "assistant",
+      "text": "One plan: a catered barbecue in the backyard, with a short sit-down toast so it still feels like an occasion.",
+      "at": 1794778450420,
+      "kind": "merge-opening"
+     }
+    ],
+    "sheets": {
+     "current": {
+      "id": "b3",
+      "name": "Catered backyard party",
+      "status": "live",
+      "originName": null,
+      "path": [
+       {
+        "id": "t1",
+        "branchId": "b1",
+        "role": "user",
+        "text": "I'm planning my dad's sixtieth birthday, about twenty people, and I'm thinking a nice restaurant dinner.",
+        "at": 1794778450398
+       },
+       {
+        "id": "t2",
+        "branchId": "b1",
+        "role": "assistant",
+        "text": "Twenty is a good size for a private room. Do you have a place in mind yet?",
+        "at": 1794778450398
+       },
+       {
+        "id": "t11",
+        "branchId": "b3",
+        "role": "user",
+        "text": "Okay, combine them into one plan.",
+        "at": 1794778450420
+       },
+       {
+        "id": "t12",
+        "branchId": "b3",
+        "role": "assistant",
+        "text": "One plan: a catered barbecue in the backyard, with a short sit-down toast so it still feels like an occasion.",
+        "at": 1794778450420,
+        "kind": "merge-opening"
+       }
+      ]
+     },
+     "peek": null,
+     "others": [],
+     "parked": []
+    },
+    "lastDecision": {
+     "op": {
+      "kind": "merge",
+      "otherId": "b2"
+     },
+     "intent": null,
+     "by": "jev",
+     "ms": 1,
+     "reason": "stand-in"
+    },
+    "ended": null
+   }
+  },
+  {
+   "t": 88.246,
+   "type": "speech",
+   "role": "assistant",
+   "status": "stopped"
+  },
+  {
+   "t": 88.546,
+   "type": "transcript",
+   "role": "assistant",
+   "final": true,
+   "text": "One plan: a catered barbecue in the backyard, with a short sit-down toast so it still feels like an occasion."
+  },
+  {
+   "t": 90.246,
+   "type": "end"
+  },
+  {
+   "t": 92.646,
+   "type": "share",
+   "data": {
+    "nothing": false,
+    "summary": {
+     "covered": "Planning your dad's sixtieth for about twenty people. You compared a restaurant dinner with a backyard barbecue and combined them into a catered barbecue with a sit-down toast.",
+     "branches": [
+      {
+       "id": "b1",
+       "line": "A private room for twenty; the venue is still open."
+      },
+      {
+       "id": "b2",
+       "line": "Saturday afternoon at home, with a grill and long tables."
+      },
+      {
+       "id": "b3",
+       "line": "A catered barbecue at home with a short sit-down toast."
+      }
+     ],
+     "open": [
+      "Which caterer, and what it costs for twenty.",
+      "A rain plan for the backyard."
+     ]
+    },
+    "branches": [
+     {
+      "id": "b1",
+      "name": "Main",
+      "status": "faded"
+     },
+     {
+      "id": "b2",
+      "name": "Backyard barbecue",
+      "status": "faded"
+     },
+     {
+      "id": "b3",
+      "name": "Catered backyard party",
+      "status": "live"
+     }
+    ],
+    "map": {
+     "nodes": [
+      {
+       "id": "b1",
+       "x": 140,
+       "y": 45,
+       "label": "Main",
+       "status": "faded"
+      },
+      {
+       "id": "b2",
+       "x": 70,
+       "y": 135,
+       "label": "Backyard barbecue",
+       "status": "faded"
+      },
+      {
+       "id": "b3",
+       "x": 210,
+       "y": 135,
+       "label": "Catered backyard …",
+       "status": "live"
+      }
+     ],
+     "edges": [
+      {
+       "from": "b1",
+       "to": "b2"
+      },
+      {
+       "from": "b1",
+       "to": "b3"
+      }
+     ],
+     "mergeEdges": [
+      {
+       "from": "b1",
+       "to": "b3"
+      },
+      {
+       "from": "b2",
+       "to": "b3"
+      }
+     ],
+     "width": 280,
+     "height": 180
+    },
+    "showMap": true,
+    "endedAt": 1794778450423
+   }
+  }
+ ]
+}
