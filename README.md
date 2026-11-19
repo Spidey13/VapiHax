@@ -2,9 +2,13 @@
 
 Branch Voice is a voice-first scratchpad for thinking through several ideas in one conversation. Explore an alternative out loud, return to an earlier thread by name or description, then compare or combine the two. The branch map keeps the paths visible while you talk, and End session turns the conversation into a map and downloadable Markdown notes.
 
+![Branch Voice comparing Tokyo and Kyoto with Furano, with both threads visible in the branch map](docs/media/branch-comparison.jpg)
+
 ## What the demo shows
 
 A seven-night Japan itinerary starts in Tokyo and Kyoto. Hokkaido opens a second thread. Changing Niseko to Furano updates that thread as a correction. The speaker returns to the city plan, compares it with Furano and combines the two. The final report carries the correction into the combined plan. The 78-second edit replays a recorded voice session and includes a separate staged mobile-web interaction. [Demo walkthrough and credits](docs/demo-script.md)
+
+![End-of-session report showing the original threads, the merged itinerary, and the correction from Niseko to Furano](docs/media/session-report.jpg)
 
 ## Run locally
 
